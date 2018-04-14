@@ -4,11 +4,22 @@ The mission of this project is to provide me the latest information on the books
 
 ### Methods & Tools
 
+#### Data Acquistion
+
 - Book/Author/Reviewer Search APIs
+- Python
+- FME Workbench
+
+#### Data Processing
+
+- FME Workbench
+
+#### Data Analysis
+
+- R
 - ShinyApps
 - Jupyter Notebooks
-- FME Workbench
 
 ### Support or Contact
 
-Have a question about this project? Submit an [issue](https://github.com/aliciatb/mybookq/issues/new) please, thank you!
+Have a question about this project? Please submit an [issue](https://github.com/aliciatb/mybookq/issues/new), thank you!
