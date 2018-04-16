@@ -4,21 +4,17 @@ The mission of this project is to provide me the latest information on the books
 
 ### Methods & Tools
 
-#### Data Acquistion
+#### Data Acquistion & Processing
 
 - Book/Author/Reviewer Search APIs
 - Python
-- FME Workbench
-
-#### Data Processing
-
-- FME Workbench
+- [Jupyter Notebooks](https://github.com/aliciatb/mybookq/blob/master/notebooks/get_books_by_author.ipynb)
 
 #### Data Analysis
 
 - R
 - ShinyApps
-- Jupyter Notebooks
+- Power BI
 
 ### Support or Contact
 
