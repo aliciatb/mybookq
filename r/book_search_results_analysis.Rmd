@@ -1,0 +1,195 @@
+---
+title: "Book Search Results Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, message=F)
+```
+
+# Initial Exploration and Anaylsis of Books by Author
+
+## Exploratory Analysis
+* Load up Search Results for Top 5 Authors
+* Verify that results are for the expected authors
+* Visualize books over time
+
+```{r libraries}
+library(ggraph)
+library(igraph)
+library(lubridate)
+library(tidytext)
+library(tidyverse)
+library(widyr)
+data("stop_words")
+```
+
+### The Data
+Initially loaded `publishedData` as a Data, but received warning that 7 records contained only a year and not a full date, so will need to set those records to an arbitrary date like "1/1/year" for now.
+
+```{r loadData, echo=F}
+data_dir <- "/users/alicia.brown/repos/mybookq/data/"
+books_file <- paste0(data_dir,"book_search_results.csv")
+books_raw <- read_csv(books_file, col_types = "ccccccnncc", trim_ws = T)
+
+authors_file <- paste0(data_dir,"books - authors.csv")
+authors_raw <- read_csv(authors_file, col_types = "ccn")
+
+summary(books_raw)
+```
+
+#### Clean Data
+* Fix Dates that are years
+* Filter by expected authors
+* Set any missing (NAs) Average Ratings to Zero (for now) so all books are plotted
+```{r fixDates}
+fix_year_date <- function(published_date){
+  if(str_length(published_date) == 4){
+    return(paste0(published_date,"-01-01"))
+  }
+  else return(published_date)
+}
+# make_a_date <- fix_year_date("2017")
+# already_a_date <- fix_year_date("2017-03-07")
+
+books <- books_raw
+
+books$publishedDate <- map(books$publishedDate, fix_year_date)
+books$publishedDate <- ymd(books$publishedDate)
+
+#set Name to lower case in prep for join to authors
+books$name <- str_to_lower(books$authors)
+
+# set NA Ratings to 0 so we don't exclude any books since the minimum ranking = 2.5
+books$averageRating <- replace_na(books$averageRating, 0)
+
+authors_raw$name <- paste(authors_raw$`first name`, authors_raw$`last name`)
+books_authors <- inner_join(books, authors_raw,  by = c("name"))
+summary(books_authors)
+```
+#### Visualize each Author by Average Rating over Time
+* Are Louise Penny and Fred Vargas the highest ranked?
+* Note that points with zero value are really missing Rating data
+```{r vizBooksTimeline}
+ggplot(books_authors) +
+  geom_line(mapping = aes(x = publishedDate, y = averageRating,
+                          color = name)) +
+  geom_point(mapping = aes(x = publishedDate, y = averageRating,
+                           color = name)) +
+  facet_wrap(~ name, nrow = 5)
+```
+
+### Text Exploration
+
+#### Explore book descriptions for Fred Vargas
+```{r textVargas}
+books_vargas <- books_authors %>%
+  filter(name=="fred vargas") %>%
+  arrange(publishedDate)
+
+books_vargas[,c(4,2,9)]
+```
+
+#### Explore book descriptions for Louise Penny
+```{r textPenny}
+books_penny <- books_authors %>%
+  filter(name=="louise penny") %>%
+  arrange(publishedDate)
+
+books_penny[,c(4,2,9)]
+```
+
+#### Create Document Matrix
+```{r docPenny}
+penny_description <- books_penny[,c(2,9)] %>%
+  unnest_tokens(word, description) %>%
+  anti_join(stop_words)
+
+penny_description %>%
+  count(word, sort = T)
+
+penny_description %>%
+  group_by(word) %>%
+  count(word, sort = T)
+
+penny_description %>%
+  count(word, sort = T) %>%
+  filter(n > 5) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n)) + 
+  geom_col() +
+  xlab(NULL) +
+  coord_flip()
+```
+
+```{r docVargas}
+
+vargas_description <- books_vargas[,c(2,9)] %>%
+  unnest_tokens(word, description) %>%
+  anti_join(stop_words)
+
+vargas_description %>%
+  count(word, sort = T)
+
+vargas_description %>%
+  group_by(word) %>%
+  count(word, sort = T)
+
+# visualize top word frequency
+vargas_description %>%
+  count(word, sort = T) %>%
+  filter(n > 4) %>%
+  mutate(word = reorder(word, n)) %>%
+  ggplot(aes(word, n)) +
+  geom_col() +
+  xlab(NULL) + 
+  coord_flip()
+```
+
+#### Term Frequency
+
+
+```{r pennytfidf}
+# term frequency - inverse document frequency
+penny_description_tfidf <- penny_description %>%
+  count(title, word, sort = T) %>%
+  ungroup() %>%
+  bind_tf_idf(word, title, n)
+
+# highest tf-idf words in descriptions
+penny_description_tfidf %>%
+  arrange(-tf_idf)
+```
+
+```{r vargastfidf}
+# term frequency - inverse document frequency
+vargas_description_tfidf <- vargas_description %>%
+  count(title, word, sort = T) %>%
+  ungroup() %>%
+  bind_tf_idf(word, title, n)
+
+# highest tf-idf words in descriptions
+vargas_description_tfidf %>%
+  arrange(-tf_idf)
+```
+
+## Compare word frequency across both authors
+```{r frequencyAuthors}
+frequency <- bind_rows(mutate(penny_description, author = "Louise Penny"),
+                       mutate(vargas_description, author = "Fred Vargas")) %>%
+  mutate(word = str_extract(word, "[a-z']+")) %>%
+  count(author, word) %>%
+  group_by(author) %>%
+  mutate(proportion = n / sum(n)) %>%
+  select(-n) %>%
+  spread(author, proportion) %>% 
+  gather(author, proportion, `Louise Penny`:`Fred Vargas`)
+
+cor.test(data = frequency[frequency$author == "Louise Penny",],
+         ~ proportion + `Fred Vargas`)
+
+frequency[frequency$author == "Louise Penny",]
+frequency[frequency$author == "Fred Vargas",]
+data = frequency[frequency$author == "Louise Penny",]
+
+```
