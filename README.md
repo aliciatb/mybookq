@@ -6,7 +6,7 @@ The mission of this project is to provide me the latest information on the books
 
 #### Data Acquistion & Processing
 
-- Book/Author/Reviewer Search APIs
+- [Book/Author/Reviewer Search APIs](https://alicia.shinyapps.io/author_search/)
 - Python
 - [Jupyter Notebooks](https://github.com/aliciatb/mybookq/blob/master/notebooks/get_books_by_author.ipynb)
 
