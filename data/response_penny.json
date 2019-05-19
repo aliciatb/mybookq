@@ -1,0 +1,750 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 479,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "5ZeGDwAAQBAJ",
+   "etag": "J9Tah4uhHCk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/5ZeGDwAAQBAJ",
+   "volumeInfo": {
+    "title": "CACHE Level 2 Diploma for the Early Years Practitioner",
+    "authors": [
+     "Penny Tassoni",
+     "Louise Burnham"
+    ],
+    "publisher": "Hodder Education",
+    "publishedDate": "2019-09-30",
+    "description": "Build the knowledge and skills required to become an Early Years Practitioner with this brand new textbook for Level 2, written by bestselling early years expert Penny Tassoni Ensure learners are fully prepared for assessment with full coverage of all units. Encourage students to gauge their own progress with regular Checkpoint quizzes. Prepare for working in real settings with practically-focused Dos and Don'ts. Motivate students with engaging language, attractive photographs and a colourful design.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781510468498"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1510468498"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 384,
+    "printType": "BOOK",
+    "categories": [
+     "Study Aids"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=5ZeGDwAAQBAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=5ZeGDwAAQBAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/CACHE_Level_2_Diploma_for_the_Early_Year.html?hl=&id=5ZeGDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=5ZeGDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Build the knowledge and skills required to become an Early Years Practitioner with this brand new textbook for Level 2, written by bestselling early years expert Penny Tassoni Ensure learners are fully prepared for assessment with full ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "KmiIDwAAQBAJ",
+   "etag": "UmdqrydY8yI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/KmiIDwAAQBAJ",
+   "volumeInfo": {
+    "title": "A Better Man",
+    "subtitle": "A Chief Inspector Gamache Novel",
+    "authors": [
+     "Louise Penny"
+    ],
+    "publisher": "Minotaur Books",
+    "publishedDate": "2019-08-27",
+    "description": "The new Chief Inspector Gamache novel from the author of the #1 New York Times bestseller Kingdom of the Blind. The air is thick with excitement and anxiety as Sûreté du Québec agents gather in the conference room for the Monday morning meeting of the homicide department. This will be Armand Gamache’s first day back since his demotion from head of the entire force, to head of homicide. Complicating matters, he’ll be sharing the duties with his former second-in-command, Jean-Guy Beauvoir. Amid blistering social media attacks, Gamache sets out on his first assignment – to find a missing woman. The search for Vivienne Godin is played out against a backdrop of catastrophic spring flooding. Three Pines itself is threatened, as the Rivière Bella Bella breaks its banks. A province-wide emergency is declared and desperate efforts are underway to save towns and cities, dams and bridges. As Gamache leads the search for Vivienne, he develops a profound empathy for her distraught father. With a daughter of his own, he finds himself haunted by the question, how would you feel, if... As the rivers rise, and the social media onslaught becomes crueler, a body is discovered. And the victim’s father contemplates a murder of his own. And the question facing both Gamache and Beauvoir shifts. What would you do, if... your child’s killer might walk free?",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781466873711"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "146687371X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 400,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=KmiIDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=KmiIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=KmiIDwAAQBAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=KmiIDwAAQBAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/A_Better_Man.html?hl=&id=KmiIDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=KmiIDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Catastrophic spring flooding, blistering attacks in the media, and a mysterious disappearance greet Chief Inspector Armand Gamache as he returns to the Sûreté du Québec in the latest novel by #1 New York Times bestselling author Louise ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "xs1swgEACAAJ",
+   "etag": "O/SLl1CvsZc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/xs1swgEACAAJ",
+   "volumeInfo": {
+    "title": "A Better Man",
+    "subtitle": "A Chief Inspector Gamache Novel",
+    "authors": [
+     "Louise Penny"
+    ],
+    "publisher": "Minotaur Books",
+    "publishedDate": "2019-08-27",
+    "description": "The new Chief Inspector Gamache novel from the author of the #1 New York Times bestseller Kingdom of the Blind. The air is thick with excitement and anxiety as Sûreté du Québec agents gather in the conference room for the Monday morning meeting of the homicide department. This will be Armand Gamache’s first day back since his demotion from head of the entire force, to head of homicide. Complicating matters, he’ll be sharing the duties with his former second-in-command, Jean-Guy Beauvoir. Amid blistering social media attacks, Gamache sets out on his first assignment – to find a missing woman. The search for Vivienne Godin is played out against a backdrop of catastrophic spring flooding. Three Pines itself is threatened, as the Rivière Bella Bella breaks its banks. A province-wide emergency is declared and desperate efforts are underway to save towns and cities, dams and bridges. As Gamache leads the search for Vivienne, he develops a profound empathy for her distraught father. With a daughter of his own, he finds himself haunted by the question, how would you feel, if... As the rivers rise, and the social media onslaught becomes crueler, a body is discovered. And the victim’s father contemplates a murder of his own. And the question facing both Gamache and Beauvoir shifts. What would you do, if... your child’s killer might walk free?",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1250066212"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781250066213"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 400,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=xs1swgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=xs1swgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=xs1swgEACAAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=xs1swgEACAAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/A_Better_Man.html?hl=&id=xs1swgEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=xs1swgEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Catastrophic spring flooding, blistering attacks in the media, and a mysterious disappearance greet Chief Inspector Armand Gamache as he returns to the Sûreté du Québec in the latest novel by #1 New York Times bestselling author Louise ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "6aU2vwEACAAJ",
+   "etag": "S4zwcNpmUuY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/6aU2vwEACAAJ",
+   "volumeInfo": {
+    "title": "CACHE Level 2 Diploma for the Early Years Practitioner",
+    "authors": [
+     "Penny Tassoni",
+     "Louise Burnham"
+    ],
+    "publishedDate": "2019-08-30",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1510468390"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781510468399"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 384,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=6aU2vwEACAAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=6aU2vwEACAAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/CACHE_Level_2_Diploma_for_the_Early_Year.html?hl=&id=6aU2vwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=6aU2vwEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "O5dJDwAAQBAJ",
+   "etag": "F730gQJEnaE",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/O5dJDwAAQBAJ",
+   "volumeInfo": {
+    "title": "Kingdom of the Blind",
+    "subtitle": "A Chief Inspector Gamache Novel",
+    "authors": [
+     "Louise Penny"
+    ],
+    "publisher": "Minotaur Books",
+    "publishedDate": "2018-11-27",
+    "description": "INSTANT #1 NEW YORK TIMES BESTSELLER A December 2018 Indie Next Pick One of Kirkus Reviews' Best of 2018 Picks BookPage Best of the Year 2018 A LibraryReads Pick for November 2018 A LibraryReads Hall of Fame Winner Washington Post's 10 Books to Read This November One of PopSugar’s Best Fall Books to Curl Up With “A captivating, wintry whodunit.” —PEOPLE \"A constantly surprising series that deepens and darkens as it evolves.\" —Marilyn Stasio, New York Times Book Review “A spellbinder . . . another outstanding Gamache adventure... ingenious . . . what more could a mystery reader – or any reader for that matter – want?”—Maureen Corrigan, Washington Post The new Chief Inspector Gamache novel from the #1 New York Times bestselling author. When a peculiar letter arrives inviting Armand Gamache to an abandoned farmhouse, the former head of the Sûreté du Québec discovers that a complete stranger has named him one of the executors of her will. Still on suspension, and frankly curious, Gamache accepts and soon learns that the other two executors are Myrna Landers, the bookseller from Three Pines, and a young builder. None of them had ever met the elderly woman. The will is so odd and includes bequests that are so wildly unlikely that Gamache and the others suspect the woman must have been delusional. But what if, Gamache begins to ask himself, she was perfectly sane? When a body is found, the terms of the bizarre will suddenly seem less peculiar and far more menacing. But it isn’t the only menace Gamache is facing. The investigation into what happened six months ago—the events that led to his suspension—has dragged on, into the dead of winter. And while most of the opioids he allowed to slip through his hands, in order to bring down the cartels, have been retrieved, there is one devastating exception. Enough narcotic to kill thousands has disappeared into inner city Montreal. With the deadly drug about to hit the streets, Gamache races for answers. As he uses increasingly audacious, even desperate, measures to retrieve the drug, Armand Gamache begins to see his own blind spots. And the terrible things hiding there.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781466873698"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1466873698"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 384,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.5.4.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=O5dJDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=O5dJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=O5dJDwAAQBAJ&printsec=frontcover&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=O5dJDwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-O5dJDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=O5dJDwAAQBAJ&rdid=book-O5dJDwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Kingdom_of_the_Blind-sample-epub.acsm?id=O5dJDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=O5dJDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "INSTANT #1 NEW YORK TIMES BESTSELLER A December 2018 Indie Next Pick One of Kirkus Reviews&#39; Best of 2018 Picks BookPage Best of the Year 2018 A LibraryReads Pick for November 2018 A LibraryReads Hall of Fame Winner Washington Post&#39;s 10 ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "gnSLDwAAQBAJ",
+   "etag": "apVxUAPRx9U",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/gnSLDwAAQBAJ",
+   "volumeInfo": {
+    "title": "A Better Man",
+    "authors": [
+     "Louise Penny"
+    ],
+    "publisher": "Hachette UK",
+    "publishedDate": "2019-08-27",
+    "description": "The air is unbearably tense as Armand Gamache returns to the Sûreté du Québec for his first day of work since his demotion from its command to head of homicide. Amid blistering personal social media attacks, Gamache sets out on his first assignment - to find a missing woman. But as he leads the search for Vivienne Godin, Three Pines itself is threatened when the river breaks its banks, and a province-wide emergency is declared. As the waters rise, a body is discovered - and the victim's distraught father contemplates a murder of his own. As a father himself, Gamache is haunted by a question . . . what would he do, if his child's killer might walk free? Praise for the award-winning Chief Inspector Armand Gamache series: 'One of the most interesting detectives in crime fiction' The Times 'Fascinating characters, a twisty plot and wonderful surprise endings' Ann Cleeves 'Wonderfully satisfying' Kate Mosse",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780751566666"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0751566667"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 400,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=gnSLDwAAQBAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=gnSLDwAAQBAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/A_Better_Man.html?hl=&id=gnSLDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=gnSLDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The air is unbearably tense as Armand Gamache returns to the Sûreté du Québec for his first day of work since his demotion from its command to head of homicide."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "Y1NGDwAAQBAJ",
+   "etag": "dG0Rm9vJMTc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Y1NGDwAAQBAJ",
+   "volumeInfo": {
+    "title": "Kingdom of the Blind",
+    "subtitle": "A Chief Inspector Gamache Mystery",
+    "authors": [
+     "Louise Penny"
+    ],
+    "publisher": "Hachette UK",
+    "publishedDate": "2018-11-27",
+    "description": "The entrancing new crime thriller featuring Chief Inspector Armand Gamache, from number one New York Times bestselling author Louise Penny 'A wonderful addition to a fantastic series' Elly Griffiths When Armand Gamache receives a letter inviting him to an abandoned farmhouse outside of Three Pines, the former head of the Sûreté du Québec discovers that a complete stranger has named him as an executor of her will. Armand never knew the elderly woman, and the bequests are so wildly unlikely that he suspects the woman must have been delusional - until a body is found, and the terms of the bizarre document suddenly seem far more menacing. But it isn't the only menace Gamache is facing. The investigation into the events that led to his suspension has dragged on, and Armand is taking increasingly desperate measures to rectify previous actions. As he does, Armand Gamache begins to see his own blind spots - and the terrible things hiding there . . . Praise for the award-winning Chief Inspector Armand Gamache series: 'One of the most interesting detectives in crime fiction' The Times 'Fascinating characters, a twisty plot and wonderful surprise endings' Ann Cleeves 'Wonderfully satisfying' Kate Mosse *This edition contains bonus extra content from Louise Penny, including a map of Three Pines*",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780751566628"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0751566624"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 416,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.2.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Y1NGDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Y1NGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=Y1NGDwAAQBAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=Y1NGDwAAQBAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Kingdom_of_the_Blind.html?hl=&id=Y1NGDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Y1NGDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The entrancing new crime thriller featuring Chief Inspector Armand Gamache, from number one New York Times bestselling author Louise Penny &#39;A wonderful addition to a fantastic series&#39; Elly Griffiths When Armand Gamache receives a letter ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "gJsWtAEACAAJ",
+   "etag": "8PiMfGA03YM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/gJsWtAEACAAJ",
+   "volumeInfo": {
+    "title": "Kingdom of the Blind",
+    "subtitle": "A Chief Inspector Gamache Mystery",
+    "authors": [
+     "Louise Penny"
+    ],
+    "publisher": "Sphere",
+    "publishedDate": "2018-11-27",
+    "description": "When a peculiar letter arrives inviting Armand Gamache to an abandoned farmhouse, the former head of the Sûreté du Québec discovers that a complete stranger has named him one of the executors of her will. Still on suspension, and frankly curious, Gamache accepts and soon learns that the other two executors are Myrna Landers, the bookseller from Three Pines, and a young builder. None of them had ever met the elderly woman. The will is so odd and includes bequests that are so wildly unlikely that Gamache and the others suspect the woman must have been delusional. But what if, Gamache begins to ask himself, she was perfectly sane? When a body is found, the terms of the bizarre will suddenly seem less peculiar and far more menacing. But it isn't the only menace Gamache is facing. The investigation into what happened six months ago--the events that led to his suspension--has dragged on, into the dead of winter. And while most of the opioids he allowed to slip through his hands, in order to bring down the cartels, have been retrieved, there is one devastating exception. Enough narcotic to kill thousands has disappeared into inner city Montreal. With the deadly drug about to hit the streets, Gamache races for answers. As he uses increasingly audacious, even desperate, measures to retrieve the drug, Armand Gamache begins to see his own blind spots. And the terrible things hiding there.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0751566594"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780751566598"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 403,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=gJsWtAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=gJsWtAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=gJsWtAEACAAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=gJsWtAEACAAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Kingdom_of_the_Blind.html?hl=&id=gJsWtAEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=gJsWtAEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "&quot;When a peculiar letter arrives inviting Armand Gamache to an abandoned farmhouse, the former head of the Sûreté du Québec discovers that a complete stranger has named him one of the executors of her will."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "dT50DwAAQBAJ",
+   "etag": "N0IQxfEhkR8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/dT50DwAAQBAJ",
+   "volumeInfo": {
+    "title": "Kingdom of the Blind",
+    "subtitle": "A Chief Inspector Gamache Mystery",
+    "authors": [
+     "Louise Penny"
+    ],
+    "publisher": "Sphere",
+    "publishedDate": "2018-11-27",
+    "description": "The entrancing new crime thriller featuring Chief Inspector Armand Gamache, from number one New York Times bestselling author Louise Penny 'A wonderful addition to a fantastic series' Elly Griffiths When Armand Gamache receives a letter inviting him to an abandoned farmhouse outside of Three Pines, the former head of the Sûreté du Québec discovers that a complete stranger has named him as an executor of her will. Armand never knew the elderly woman, and the bequests are so wildly unlikely that he suspects the woman must have been delusional - until a body is found, and the terms of the bizarre document suddenly seem far more menacing. But it isn't the only menace Gamache is facing. The investigation into the events that led to his suspension has dragged on, and Armand is taking increasingly desperate measures to rectify previous actions. As he does, Armand Gamache begins to see his own blind spots - and the terrible things hiding there . . . Praise for the award-winning Chief Inspector Armand Gamache series: 'One of the most interesting detectives in crime fiction' The Times 'Fascinating characters, a twisty plot and wonderful surprise endings' Ann Cleeves 'Wonderfully satisfying' Kate Mosse *This edition contains bonus extra content from Louise Penny, including a map of Three Pines*",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780751566628"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0751566624"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 400,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.2.2.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=dT50DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=dT50DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=dT50DwAAQBAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=dT50DwAAQBAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Kingdom_of_the_Blind.html?hl=&id=dT50DwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=dT50DwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The entrancing new crime thriller featuring Chief Inspector Armand Gamache, from number one New York Times bestselling author Louise Penny &#39;A wonderful addition to a fantastic series&#39; Elly Griffiths When Armand Gamache receives a letter ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "WRfMAQAACAAJ",
+   "etag": "d9R1NElgqIU",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/WRfMAQAACAAJ",
+   "volumeInfo": {
+    "title": "Glass Houses",
+    "authors": [
+     "Louise Penny"
+    ],
+    "publisher": "Sphere",
+    "publishedDate": "2018-11-13",
+    "description": "'A cracking storyteller, who can create fascinating characters, a twisty plot and wonderful surprise endings' Ann Cleeves One cold November day, a mysterious figure appears on the village green in Three Pines, causing unease, alarm and confusion among everyone who sees it. Chief Superintendent, Armand Gamache knows something is seriously wrong, but all he can do is watch and wait, hoping his worst fears are not realised. But when the figure disappears and a dead body is discovered, it falls to Gamache to investigate. In the early days of the murder inquiry, and months later, as the trial for the accused begins, Gamache must face the consequences of his decisions, and his actions, from which there is no going back . . . Gripping, surprising and powerful, Glass Houses is the new ingenious and illuminating novel from number one bestseller, Louise Penny, which will leave you spellbound until the final page.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0751566586"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780751566581"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 496,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 55,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=WRfMAQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=WRfMAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=WRfMAQAACAAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=WRfMAQAACAAJ&dq=inauthor:Louise+Penny&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Glass_Houses.html?hl=&id=WRfMAQAACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=WRfMAQAACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Gripping, surprising and powerful, Glass Houses is the new ingenious and illuminating novel from number one bestseller, Louise Penny, which will leave you spellbound until the final page."
+   }
+  }
+ ]
+}

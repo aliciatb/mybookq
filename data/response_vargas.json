@@ -1,0 +1,759 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 347,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "32_tvgEACAAJ",
+   "etag": "Kz/HHjA79vE",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/32_tvgEACAAJ",
+   "volumeInfo": {
+    "title": "This Poison Will Remain",
+    "authors": [
+     "Fred Vargas"
+    ],
+    "publisher": "Penguin Books",
+    "publishedDate": "2019-08-20",
+    "description": "Commissaire Adamsberg investigates the death of three men linked by their childhood at an orphanage in Nimes, all killed by the venom of the recluse spider, in the new novel by the #1 bestselling French crime writer \"Spry, ironic, yet fully engaged with the horror of contemporary reality.\" --Los Angeles Times \"A wildly imaginative series.\"--The New York Times A murder in Paris brings Commissaire Adamsberg out of the Icelandic mists of his previous investigation and unexpectedly into the region of Nîmes, where three old men have died of spider bites. The recluse has a sneaky attack, but is that enough to explain the deaths of these men, all killed by the same venom? At the National Museum of Natural History, Adamsberg meets a pensioner who tells him that two of the three octogenarians have known each other since childhood, when they lived in a local orphanage called The Mercy. There, they had belonged to a small group of violent young boys known as the \"band of recluses.\" Adamsberg faces two obstacles: the third man killed by the same venom was not part of the \"band of recluses\", and the amount of spider venom necessary to kill doesn't add up. Yet after the Nîmes deaths, more members of the old band succumb to recluse bites, leading the commissaire to uncover the tragedy hidden behind the walls of the orphanage.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0143133667"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780143133667"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 400,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=32_tvgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=32_tvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=32_tvgEACAAJ&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=32_tvgEACAAJ&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/This_Poison_Will_Remain.html?hl=&id=32_tvgEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=32_tvgEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Commissaire Adamsberg investigates the death of three men linked by their childhood at an orphanage in Nimes, all killed by the venom of the recluse spider, in the new novel by the #1 bestselling French crime writer &quot;Spry, ironic, yet fully ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "iaF7DwAAQBAJ",
+   "etag": "L33tJen5U2c",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/iaF7DwAAQBAJ",
+   "volumeInfo": {
+    "title": "This Poison Will Remain",
+    "authors": [
+     "Fred Vargas"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2019-08-20",
+    "description": "Commissaire Adamsberg investigates the death of three men linked by their childhood at an orphanage in Nimes, all killed by the venom of the recluse spider, in the new novel by the #1 bestselling French crime writer “Spry, ironic, yet fully engaged with the horror of contemporary reality.” —Los Angeles Times “A wildly imaginative series.”—The New York Times A murder in Paris brings Commissaire Adamsberg out of the Icelandic mists of his previous investigation and unexpectedly into the region of Nîmes, where three old men have died of spider bites. The recluse has a sneaky attack, but is that enough to explain the deaths of these men, all killed by the same venom? At the National Museum of Natural History, Adamsberg meets a pensioner who tells him that two of the three octogenarians have known each other since childhood, when they lived in a local orphanage called The Mercy. There, they had belonged to a small group of violent young boys known as the \"band of recluses.\" Adamsberg faces two obstacles: the third man killed by the same venom was not part of the \"band of recluses\", and the amount of spider venom necessary to kill doesn't add up. Yet after the Nîmes deaths, more members of the old band succumb to recluse bites, leading the commissaire to uncover the tragedy hidden behind the walls of the orphanage.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780525505457"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0525505458"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 400,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=iaF7DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=iaF7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=iaF7DwAAQBAJ&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=iaF7DwAAQBAJ&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/This_Poison_Will_Remain.html?hl=&id=iaF7DwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=iaF7DwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Commissaire Adamsberg investigates the death of three men linked by their childhood at an orphanage in Nimes, all killed by the venom of the recluse spider, in the new novel by the #1 bestselling French crime writer “A wildly imaginative ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "oGhkDwAAQBAJ",
+   "etag": "CfyZ0BTpz5g",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/oGhkDwAAQBAJ",
+   "volumeInfo": {
+    "title": "This Poison Will Remain",
+    "authors": [
+     "Fred Vargas"
+    ],
+    "publisher": "Random House",
+    "publishedDate": "2019-08-01",
+    "description": "The exhilarating new Inspector Adamsberg novel from France’s multi-million copy bestselling queen of crime ‘Adamsberg is one of my favourite detectives... I so enjoyed This Poison Will Remain’ ANN CLEEVES When three elderly men are poisoned, apparently by spider bites, everyone assumes that the deaths are tragic accidents. But at police headquarters in Paris, Inspector Adamsberg begins to suspect that the case is far more complex than first appears. It isn’t long before Adamsberg is pursuing a series of rumours and allegations that take him to the south of France, and the shocking events that occurred at La Miséricorde orphanage, decades ago. A spate of serious injuries there was linked to bites from the same local species, the recluse spider. Adamsberg is convinced that, through the haunting crimes of the past, he can prove that the men were victims of an ingenious serial killer. His team, however, is not so sure. This time, he must put his reputation on the line to trace the murderer before the death toll rises...",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781473554726"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1473554721"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 416,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=oGhkDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=oGhkDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=oGhkDwAAQBAJ&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=oGhkDwAAQBAJ&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/This_Poison_Will_Remain.html?hl=&id=oGhkDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=oGhkDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The exhilarating new Inspector Adamsberg novel from France’s multi-million-copy bestselling crime fiction star ‘Adamsberg is one of my favourite detectives."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "fxJEvgEACAAJ",
+   "etag": "2SIhROKhFgg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/fxJEvgEACAAJ",
+   "volumeInfo": {
+    "title": "This Poison Will Remain",
+    "authors": [
+     "Fred Vargas"
+    ],
+    "publisher": "Harvill Secker",
+    "publishedDate": "2019-08",
+    "description": "10 MILLION BOOKS SOLD WORLDWIDE Inspector Adamsberg is in the south of France. When a group of local residents are killed by spider venom, his colleagues view it as an open-and-shut case. But Adamsberg is suspicious. He'll have to put everything on the line to convince them that there's a murderer at work...",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1787300501"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781787300507"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 416,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=fxJEvgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=fxJEvgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=fxJEvgEACAAJ&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=fxJEvgEACAAJ&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/This_Poison_Will_Remain.html?hl=&id=fxJEvgEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=fxJEvgEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "10 MILLION BOOKS SOLD WORLDWIDE Inspector Adamsberg is in the south of France."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "m4JKvwEACAAJ",
+   "etag": "8jnOG+83P9g",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/m4JKvwEACAAJ",
+   "volumeInfo": {
+    "title": "This Poison Will Remain",
+    "authors": [
+     "Fred Vargas"
+    ],
+    "publisher": "Harvill Secker",
+    "publishedDate": "2019-08",
+    "description": "10 MILLION BOOKS SOLD WORLDWIDE Inspector Adamsberg is in the south of France. When a group of local residents are killed by spider venom, his colleagues view it as an open-and-shut case. But Adamsberg is suspicious. He'll have to put everything on the line to convince them that there's a murderer at work...",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "178730051X"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781787300514"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 416,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=m4JKvwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=m4JKvwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=m4JKvwEACAAJ&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=m4JKvwEACAAJ&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/This_Poison_Will_Remain.html?hl=&id=m4JKvwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=m4JKvwEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "10 MILLION BOOKS SOLD WORLDWIDE Inspector Adamsberg is in the south of France."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "JGyrYni0T5oC",
+   "etag": "b8nIcsD2REI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/JGyrYni0T5oC",
+   "volumeInfo": {
+    "title": "Collier on Bankruptcy Taxation",
+    "authors": [
+     "Myron M. Sheinfeld",
+     "Fred T. Witt",
+     "Milton B. Hyman"
+    ],
+    "publisher": "LexisNexis",
+    "publishedDate": "2018-11-23",
+    "description": "This dynamic one-volume resource presents thorough, authoritative discussion of the many tax issues arising in, and in relation to a bankruptcy case. Provides practical, hands-on guidance, including a step-by-step outline of bankruptcy procedures; detailed discussion of the substantive and procedural aspects of litigation with the IRS in Bankruptcy Court; expert analysis of applicable law and on-point cases; and more. The Collier on Bankruptcy Taxation has been thoroughly updated to reflect the bankruptcy tax provisions of the Bankruptcy Abuse Prevention and Consumer Protection Act of 2005, Pub. L. No. 109-8, and will be invaluable in understanding and applying the new legislation. Thorough, expert assessment of corporate bankruptcy taxation matters, including: • Prefiling, postfiling and general planning and practice strategies in corporate Chapter 11 cases • The tax consequences of one corporation reshuffling its capital structure and of a two-corporation transfer of assets in a tax-free G reorganization • The consequences of the issuance of stock by a corporate debtor in satisfaction of claims held by its creditors • The use of and limitations on a corporation's net operating loss carry-overs • Complete guidance on the tax complexities of consumer bankruptcies, including a chapter-length checklist on tax planning and practice strategies for individual debtors",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781579111083"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1579111084"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 1394,
+    "printType": "BOOK",
+    "categories": [
+     "Law"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.10.12.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=JGyrYni0T5oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=JGyrYni0T5oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=JGyrYni0T5oC&pg=PT558&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=JGyrYni0T5oC&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-JGyrYni0T5oC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 831.0,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 664.8,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=JGyrYni0T5oC&rdid=book-JGyrYni0T5oC&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 8.31E8,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 6.648E8,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Collier_on_Bankruptcy_Taxation-sample-epub.acsm?id=JGyrYni0T5oC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Collier_on_Bankruptcy_Taxation-sample-pdf.acsm?id=JGyrYni0T5oC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=JGyrYni0T5oC&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "N.D. Idaho 1982) (scheme of chapter 13 prevails over setoff attempt after \u003cbr\u003e\nconfirmation of the plan; IRS is bound by the terms of the plan); In re \u003cb\u003eVargas\u003c/b\u003e, 342 \u003cbr\u003e\nB.R. 762 (Bankr. N.D. Ohio 2006); In re Wellman, 322 B. R. 298 (B.A.P. 6th Cir. \u003cbr\u003e\n2004)."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "IrWRDQAAQBAJ",
+   "etag": "Umb7goV3+Xw",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/IrWRDQAAQBAJ",
+   "volumeInfo": {
+    "title": "The Accordionist",
+    "authors": [
+     "Fred Vargas"
+    ],
+    "publisher": "Random House",
+    "publishedDate": "2017-08-17",
+    "description": "SHORTLISTED FOR THE CWA INTERNATIONAL DAGGER 2018 When two Parisian women are murdered in their homes, the police suspect young accordionist Clément Vauquer. As he was seen outside both of the apartments in question, it seems like an open-and-shut case. Desperate for a chance to prove his innocence, Clément disappears. He seeks refuge with old Marthe, the only mother figure he has ever known, who calls in ex-special investigator Louis Kehlweiler. Louis is soon faced with his most complex case yet and he calls on some unconventional friends to help him. He must show that Clément is not responsible and solve a fiendish riddle to find the killer...",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781473522923"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1473522927"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 256,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.7.8.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=IrWRDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=IrWRDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=IrWRDQAAQBAJ&printsec=frontcover&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=IrWRDQAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-IrWRDQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 12.68,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=IrWRDQAAQBAJ&rdid=book-IrWRDQAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.268E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/The_Accordionist-sample-epub.acsm?id=IrWRDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=IrWRDQAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "SHORTLISTED FOR THE CWA INTERNATIONAL DAGGER 2018 When two Parisian women are murdered in their homes, the police suspect young accordionist Clément Vauquer."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "Al95DAAAQBAJ",
+   "etag": "wrZoepAH+OY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Al95DAAAQBAJ",
+   "volumeInfo": {
+    "title": "A Climate of Fear",
+    "authors": [
+     "Fred Vargas"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2017-03-07",
+    "description": "From the #1 bestselling French author and four-time winner of the Crime Writers’ Association’s International Dagger Award \"French crime queen's new mystery—her best yet.\"—The Sunday Times (\"Must Reads\") A woman is found murdered in her bathtub, and the murder has been made to look like a suicide. But a strange symbol found at the crime scene leads the local police to call Commissaire Adamsberg and his team. When the symbol is found near the body of a second disguised suicide, a pattern begins to emerge: both victims were part of a disastrous expedition to Iceland over ten years ago where a group of tourists found themselves trapped on a deserted island for two weeks, surrounded by a thick, impenetrable fog rumored to be summoned by an ancient local demon. Two of them didn’t make it back alive. But how are the deaths linked to the secretive Association for the Study of the Writings of Maximilien Robespierre? And what does the mysterious symbol signify?",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101992234"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1101992239"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 416,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 4,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.2.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Al95DAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Al95DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=Al95DAAAQBAJ&printsec=frontcover&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=Al95DAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-Al95DAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=Al95DAAAQBAJ&rdid=book-Al95DAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/A_Climate_of_Fear-sample-epub.acsm?id=Al95DAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Al95DAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "From the #1 bestselling French author and four-time winner of the Crime Writers’ Association’s International Dagger Award &quot;French crime queen&#39;s new mystery—her best yet.&quot;—The Sunday Times (&quot;Must Reads&quot;) “Adamsberg is a terrific ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "Al95DAAAQBAJ",
+   "etag": "pFRNuSxWz90",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Al95DAAAQBAJ",
+   "volumeInfo": {
+    "title": "A Climate of Fear",
+    "authors": [
+     "Fred Vargas"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2017-03-07",
+    "description": "From the #1 bestselling French author and four-time winner of the Crime Writers’ Association’s International Dagger Award \"French crime queen's new mystery—her best yet.\"—The Sunday Times (\"Must Reads\") A woman is found murdered in her bathtub, and the murder has been made to look like a suicide. But a strange symbol found at the crime scene leads the local police to call Commissaire Adamsberg and his team. When the symbol is found near the body of a second disguised suicide, a pattern begins to emerge: both victims were part of a disastrous expedition to Iceland over ten years ago where a group of tourists found themselves trapped on a deserted island for two weeks, surrounded by a thick, impenetrable fog rumored to be summoned by an ancient local demon. Two of them didn’t make it back alive. But how are the deaths linked to the secretive Association for the Study of the Writings of Maximilien Robespierre? And what does the mysterious symbol signify?",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101992234"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1101992239"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 416,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 4,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.2.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Al95DAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Al95DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=Al95DAAAQBAJ&pg=PT1&dq=inauthor:Fred+Vargas&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=Al95DAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-Al95DAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=Al95DAAAQBAJ&rdid=book-Al95DAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/A_Climate_of_Fear-sample-epub.acsm?id=Al95DAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Al95DAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Praise for Fred \u003cb\u003eVargas\u003c/b\u003e and the Commissaire Adamsberg Mysteries “A wildly \u003cbr\u003e\nimaginative series.” —The New York Times “Spry, ironic, yet fully engaged with \u003cbr\u003e\nthe horror of contemporary reality.” —Los Angeles Times “It&#39;s a full, rich, and \u003cbr\u003e\nstrange&nbsp;..."
+   }
+  }
+ ]
+}

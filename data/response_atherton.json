@@ -1,0 +1,893 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 318,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "qNxwwwEACAAJ",
+   "etag": "pfr3Ng+3SzU",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/qNxwwwEACAAJ",
+   "volumeInfo": {
+    "title": "Aunt Dimity and the Heart of Gold",
+    "authors": [
+     "Nancy Atherton"
+    ],
+    "publisher": "Aunt Dimity",
+    "publishedDate": "2019-07-24",
+    "description": "In the newest installment of the bestselling Aunt Dimity series, a dreary Christmas leads to hidden treature and new friendships It's almost Christmas in the small English village of Finch--and everyone is sick. Though many of the villagers regretfully decline their invitations to Emma Harris's annual Christmas bash, Lori Shepherd has no intention of missing it. When the winter weather takes a turn for the worse, it's agreed that none of the guests will leave until morning. There's general merriment as the Christmas party becomes a pajama party--until a car appears in the winding driveway and promptly slides off the slick pavement and into a ditch. Matilda \"Tilly\" Trout--a lost and scatterbrained, middle-aged woman--is mercifully unhurt and invited to stay the night. While she catches her breath, Emma asks her other guests if they would like a tour of the Manor--including an odd room that puzzles her. Several guests put forth guesses as to its purpose, but it's Tilly who correctly identifies the room as a chapel. Placing a palm on one of the ornately-carved panels, Tilly finds a hidden compartment concealing a pile of glittering treasure--including an exquisitely decorated heart made of solid gold. Where did it come from, and why does it look so different from everything else in the chapel? Why didn't Emma even know about this hidden compartment in her own home until now--and how did Tilly? With Aunt Dimity's otherworldly help and Tilly's bewildering store of knowledge, Lori and friends set out to unravel the mystery behind the heart of gold. And, against all odds--and Christmas finally comes to Finch!",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1432863509"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781432863500"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=qNxwwwEACAAJ&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=qNxwwwEACAAJ&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Aunt_Dimity_and_the_Heart_of_Gold.html?hl=&id=qNxwwwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=qNxwwwEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "With Aunt Dimity&#39;s otherworldly help and Tilly&#39;s bewildering store of knowledge, Lori and friends set out to unravel the mystery behind the heart of gold. And, against all odds--and Christmas finally comes to Finch!"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "2_g5DwAAQBAJ",
+   "etag": "H/g8QNm0yLI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/2_g5DwAAQBAJ",
+   "volumeInfo": {
+    "title": "Aunt Dimity and The King's Ransom",
+    "authors": [
+     "Nancy Atherton"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2018-07-24",
+    "description": "In the 23rd installment of the bestselling Aunt Dimity series, a dark and stormy night kicks off a ghost chase in rural England On a dull and dreary October day, Lori Shepherd and her husband Bill set off for the historic town of Rye, on the southeast coast of England, for a quiet weekend together without the kids. Bill must first pay a visit to a reclusive client--but after Lori drops him off, a powerful storm drives her off course and leaves her stranded in an ancient, rambling inn called The King's Ransom. When Lori is spooked by ghostly noises in the night, Aunt Dimity reminds her rather tartly that not all ghosts intend to harm the living. But the longer Lori is stuck at the inn, the stranger things seem. She learns that the inn was once a hangout for smugglers, and that it's riddled with secret tunnels the smugglers used to reach a network of hidden caves. Then there's the inn's cook--a brawny, gruff ex-con--who seems to have a beef with a mysterious French guest. Are the noises Lori hears made by the spirits of long dead smugglers? Or should she be more worried by the inn's living inhabitants? Joining forces with her new friend Bishop Wyndham, and guided by Aunt Dimity's wise counsel, Lori sets out to discover once and for all who--or what--is haunting The King's Ransom.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780525522669"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0525522662"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 4,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.2.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=2_g5DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=2_g5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=2_g5DwAAQBAJ&printsec=frontcover&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=2_g5DwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-2_g5DwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 12.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 12.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=2_g5DwAAQBAJ&rdid=book-2_g5DwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.299E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.299E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Aunt_Dimity_and_The_King_s_Ransom-sample-epub.acsm?id=2_g5DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=2_g5DwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Joining forces with her new friend Bishop Wyndham, and guided by Aunt Dimity&#39;s wise counsel, Lori sets out to discover once and for all who--or what--is haunting The King&#39;s Ransom."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "kZPZDAAAQBAJ",
+   "etag": "zkXX858RJ84",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/kZPZDAAAQBAJ",
+   "volumeInfo": {
+    "title": "Aunt Dimity and the Widow's Curse",
+    "authors": [
+     "Nancy Atherton"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2017-05-30",
+    "description": "Nancy Atherton's twenty-second cozy mystery in the beloved, nationally bestselling Aunt Dimity series. It's early April in the small English village of Finch. Lori Shepherd's husband and sons are spending Easter break camping, and Lori is perfectly happy to be left at home with Bess, spared a week of roughing it with a curious toddler. The two attend a village events committee meeting and Lori is astonished when the elderly, soft-spoken widow Mrs. Annabelle Craven stands to make an announcement: she's decided to hold a quilting bee in the old schoolhouse. At the quilting bee, Lori ends up seated beside Mrs. Craven, delighted at the opportunity to learn more about her neighbor's life in the village of Old Cowerton. But dear, sweet Mrs. Craven's stories reveal a startling secret about her first husband's death. With Aunt Dimity's advice, Lori sets out to learn the truth about what the residents of Old Cowerton refer to as the \"widow's curse\"--and the deeper she digs, the more horrifying the tale becomes, until she discovers the most astounding revelation of all. Watch out for Atherton's latest, Aunt Dimity and the King's Ransom, coming out in July 2018!",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101981337"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1101981334"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 5,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.3.3.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=kZPZDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=kZPZDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=kZPZDAAAQBAJ&printsec=frontcover&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=kZPZDAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-kZPZDAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=kZPZDAAAQBAJ&rdid=book-kZPZDAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Aunt_Dimity_and_the_Widow_s_Curse-sample-epub.acsm?id=kZPZDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=kZPZDAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "With Aunt Dimity&#39;s advice, Lori sets out to learn the truth about what the residents of Old Cowerton refer to as the &quot;widow&#39;s curse&quot;--and the deeper she digs, the more horrifying the tale becomes, until she discovers the most astounding ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "kZPZDAAAQBAJ",
+   "etag": "fWEdJpWy9Zg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/kZPZDAAAQBAJ",
+   "volumeInfo": {
+    "title": "Aunt Dimity and the Widow's Curse",
+    "authors": [
+     "Nancy Atherton"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2017-05-30",
+    "description": "Nancy Atherton's twenty-second cozy mystery in the beloved, nationally bestselling Aunt Dimity series. It's early April in the small English village of Finch. Lori Shepherd's husband and sons are spending Easter break camping, and Lori is perfectly happy to be left at home with Bess, spared a week of roughing it with a curious toddler. The two attend a village events committee meeting and Lori is astonished when the elderly, soft-spoken widow Mrs. Annabelle Craven stands to make an announcement: she's decided to hold a quilting bee in the old schoolhouse. At the quilting bee, Lori ends up seated beside Mrs. Craven, delighted at the opportunity to learn more about her neighbor's life in the village of Old Cowerton. But dear, sweet Mrs. Craven's stories reveal a startling secret about her first husband's death. With Aunt Dimity's advice, Lori sets out to learn the truth about what the residents of Old Cowerton refer to as the \"widow's curse\"--and the deeper she digs, the more horrifying the tale becomes, until she discovers the most astounding revelation of all. Watch out for Atherton's latest, Aunt Dimity and the King's Ransom, coming out in July 2018!",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101981337"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1101981334"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 5,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.3.3.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=kZPZDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=kZPZDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=kZPZDAAAQBAJ&pg=PT1&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=kZPZDAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-kZPZDAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=kZPZDAAAQBAJ&rdid=book-kZPZDAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Aunt_Dimity_and_the_Widow_s_Curse-sample-epub.acsm?id=kZPZDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=kZPZDAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Praise for Nancy \u003cb\u003eAtherton\u003c/b\u003e and her Aunt Dimity Series Aunt Dimity and the \u003cbr\u003e\nWidow&#39;s Curse “Perhaps the most heartwarming entry in this longrunning series . \u003cbr\u003e\n. . one that presents a very different path to solving the case.” —Kirkus Reviews \u003cbr\u003e\nAunt&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "A-GiDgAAQBAJ",
+   "etag": "tgyw1GYZdzc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/A-GiDgAAQBAJ",
+   "volumeInfo": {
+    "title": "Aunt Dimity and the Buried Treasure",
+    "authors": [
+     "Nancy Atherton"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2017",
+    "description": "Nancy Atherton's twenty-first cozy mystery in the beloved, Nationally Bestselling Aunt Dimity series. While exploring the attic in her cottage near the small English village of Finch, Lori Shepherd makes an extraordinary discovery: a gleaming gold and garnet bracelet that had once belonged to Aunt Dimity. When Lori shows the garnet bracelet to Aunt Dimity, it awakens poignant memories of a doomed romance in Aunt Dimity's youth in London after the War. Regretfully, Aunt Dimity asks Lori to do what she could not: return the bracelet to her unsuccessful suitor--setting Lori off on an adventure through London--and through history--to put a piece of Aunt Dimity's past to rest. In the meantime, a new family has moved to Finch. The villagers are thrilled because their new neighbors are avid metal detectorists. Metal detectors soon become all the rage in Finch and the villagers unearth a lot of rubbish (some of it quite embarrassing) before one of them stumbles upon a trinket that could hold the key to the origin of Aunt Dimity's bracelet. Is the bracelet a priceless and protected national treasure? Was Aunt Dimity's lovesick suitor a common thief? If so, how will Lori break the news to Aunt Dimity? And what will she do with the bracelet? As Lori searches for answers, she discovers an unexpected link between the buried treasure in the village and the treasure buried in Aunt Dimity's heart. Watch out for Nancy Atherton's latest, Aunt Dimity and the King's Ransom, coming in July 2018 from Viking!",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101981313"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1101981318"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 6,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.preview.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=A-GiDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=A-GiDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=A-GiDgAAQBAJ&printsec=frontcover&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=A-GiDgAAQBAJ&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Aunt_Dimity_and_the_Buried_Treasure.html?hl=&id=A-GiDgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=A-GiDgAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Nancy Atherton&#39;s twenty-first cozy mystery in the beloved, Nationally Bestselling Aunt Dimity series."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "A-GiDgAAQBAJ",
+   "etag": "rp8nsDlRxNU",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/A-GiDgAAQBAJ",
+   "volumeInfo": {
+    "title": "Aunt Dimity and the Buried Treasure",
+    "authors": [
+     "Nancy Atherton"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2017",
+    "description": "Nancy Atherton's twenty-first cozy mystery in the beloved, Nationally Bestselling Aunt Dimity series. While exploring the attic in her cottage near the small English village of Finch, Lori Shepherd makes an extraordinary discovery: a gleaming gold and garnet bracelet that had once belonged to Aunt Dimity. When Lori shows the garnet bracelet to Aunt Dimity, it awakens poignant memories of a doomed romance in Aunt Dimity's youth in London after the War. Regretfully, Aunt Dimity asks Lori to do what she could not: return the bracelet to her unsuccessful suitor--setting Lori off on an adventure through London--and through history--to put a piece of Aunt Dimity's past to rest. In the meantime, a new family has moved to Finch. The villagers are thrilled because their new neighbors are avid metal detectorists. Metal detectors soon become all the rage in Finch and the villagers unearth a lot of rubbish (some of it quite embarrassing) before one of them stumbles upon a trinket that could hold the key to the origin of Aunt Dimity's bracelet. Is the bracelet a priceless and protected national treasure? Was Aunt Dimity's lovesick suitor a common thief? If so, how will Lori break the news to Aunt Dimity? And what will she do with the bracelet? As Lori searches for answers, she discovers an unexpected link between the buried treasure in the village and the treasure buried in Aunt Dimity's heart. Watch out for Nancy Atherton's latest, Aunt Dimity and the King's Ransom, coming in July 2018 from Viking!",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101981313"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1101981318"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 6,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.preview.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=A-GiDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=A-GiDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=A-GiDgAAQBAJ&pg=PP3&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=A-GiDgAAQBAJ&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Aunt_Dimity_and_the_Buried_Treasure.html?hl=&id=A-GiDgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=A-GiDgAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Praise for Nancy \u003cb\u003eAtherton\u003c/b\u003e and her Aunt Dimity Series Praise for Aunt Dimity and \u003cbr\u003e\nthe Buried Treasure “\u003cb\u003eAtherton\u003c/b\u003e smoothly blends history, village life, and the \u003cbr\u003e\notherworldly.” –Publishers Weekly “[A] spectral charmer . . . \u003cb\u003eAtherton&#39;s\u003c/b\u003e Aunt Dimity \u003cbr\u003e\nfans&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "w2dYCgAAQBAJ",
+   "etag": "CumHHQ4cFhY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/w2dYCgAAQBAJ",
+   "volumeInfo": {
+    "title": "Aunt Dimity and the Buried Treasure",
+    "authors": [
+     "Nancy Atherton"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2016-05-24",
+    "description": "Nancy Atherton's twenty-first cozy mystery in the beloved, Nationally Bestselling Aunt Dimity series. While exploring the attic in her cottage near the small English village of Finch, Lori Shepherd makes an extraordinary discovery: a gleaming gold and garnet bracelet that had once belonged to Aunt Dimity. When Lori shows the garnet bracelet to Aunt Dimity, it awakens poignant memories of a doomed romance in Aunt Dimity’s youth in London after the War. Regretfully, Aunt Dimity asks Lori to do what she could not: return the bracelet to her unsuccessful suitor—setting Lori off on an adventure through London—and through history—to put a piece of Aunt Dimity’s past to rest. In the meantime, a new family has moved to Finch. The villagers are thrilled because their new neighbors are avid metal detectorists. Metal detectors soon become all the rage in Finch and the villagers unearth a lot of rubbish (some of it quite embarrassing) before one of them stumbles upon a trinket that could hold the key to the origin of Aunt Dimity’s bracelet. Is the bracelet a priceless and protected national treasure? Was Aunt Dimity’s lovesick suitor a common thief? If so, how will Lori break the news to Aunt Dimity? And what will she do with the bracelet? As Lori searches for answers, she discovers an unexpected link between the buried treasure in the village and the treasure buried in Aunt Dimity’s heart. Watch out for Nancy Atherton's latest, Aunt Dimity and the Widow's Curse, coming in May 2017 from Viking! From the Hardcover edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101981306"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "110198130X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 6,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.5.3.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=w2dYCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=w2dYCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=w2dYCgAAQBAJ&printsec=frontcover&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=w2dYCgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-w2dYCgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=w2dYCgAAQBAJ&rdid=book-w2dYCgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Aunt_Dimity_and_the_Buried_Treasure-sample-epub.acsm?id=w2dYCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=w2dYCgAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Nancy Atherton&#39;s twenty-first cozy mystery in the beloved, Nationally Bestselling Aunt Dimity series."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "jxHUCwAAQBAJ",
+   "etag": "vDtD29+wUCs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/jxHUCwAAQBAJ",
+   "volumeInfo": {
+    "title": "Aunt Dimity and the Summer King",
+    "authors": [
+     "Nancy Atherton"
+    ],
+    "publisher": "Penguin Books",
+    "publishedDate": "2016-04-26",
+    "description": "Overseeing her baby, a family wedding and her own approaching 40th birthday celebration amid rumors that a developer has unwanted plans for Finch village, Lori bonds with a warmhearted inventor only to discover his true intentions.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780143108108"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0143108107"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 5,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=jxHUCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=jxHUCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=jxHUCwAAQBAJ&pg=PP3&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=jxHUCwAAQBAJ&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Aunt_Dimity_and_the_Summer_King.html?hl=&id=jxHUCwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=jxHUCwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Praise for Nancy \u003cb\u003eAtherton\u003c/b\u003e and her Aunt Dimity Series Aunt Dimity and the \u003cbr\u003e\nSummer King “Another hit in the long line of Aunt Dimity books.” Suspense \u003cbr\u003e\nMagazine “Aunt Dimity and the Summer King illuminates the layered writing room \u003cbr\u003e\nof Nancy&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "1opgBAAAQBAJ",
+   "etag": "Zl9IT5TG2zg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/1opgBAAAQBAJ",
+   "volumeInfo": {
+    "title": "Aunt Dimity and the Summer King",
+    "authors": [
+     "Nancy Atherton"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2015-04-14",
+    "description": "Cozy mystery lovers’ favorite paranormal sleuth is back with her twentieth otherworldly adventure It’s June, the roses are in bloom, and the small English village of Finch may be in big trouble. Two cottages are for sale, but something—or someone—is driving buyers away. Has a developer targeted Finch? Will property values skyrocket? Will a wave of wealthy weekenders drive out the longtime locals? Lori Shepherd has a lot on her plate—a brand-new baby daughter, her father-in-law’s impending nuptials, and a visit from her dreaded aunts-in-law—but she refuses to stand back and watch while big money destroys her beloved village. Lori suspects that a local real estate agent is illicitly lining her pockets at Finch’s expense, but before she can prove it, she’s sidetracked by a chance encounter with an eccentric inventor. Arthur Hargreaves, dubbed the Summer King by his quirky family, is as warmhearted as the summer sun. In his presence, Lori forgets her troubles—and Finch’s. Lori snaps out of her happy trance when a series of unsettling discoveries shakes her faith in Arthur Hargreaves. She stumbles across a detailed map of Finch in Hillfont Abbey. An ancient feud between Finch and the Hargreaves family comes to light. Arthur appears to be making secret deals with the shady realtor. Is the Summer King as kind as he seems? With Aunt Dimity’s otherworldly help—and her new baby girl in her arms—Lori mounts a crusade to save her village from the Summer King’s scorching greed. Look out for Aunt Dimity and the Buried Treasure, the next in the series, coming from Viking on May 24, 2016. From the Hardcover edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780698192195"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0698192192"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 5,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.5.4.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=1opgBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=1opgBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=1opgBAAAQBAJ&printsec=frontcover&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=1opgBAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-1opgBAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 6.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 6.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=1opgBAAAQBAJ&rdid=book-1opgBAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 6990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 6990000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Aunt_Dimity_and_the_Summer_King-sample-epub.acsm?id=1opgBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=1opgBAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Look out for Aunt Dimity and the Buried Treasure, the next in the series, coming from Viking on May 24, 2016. From the Hardcover edition."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "1opgBAAAQBAJ",
+   "etag": "hzwzVt1A1Ss",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/1opgBAAAQBAJ",
+   "volumeInfo": {
+    "title": "Aunt Dimity and the Summer King",
+    "authors": [
+     "Nancy Atherton"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2015-04-14",
+    "description": "Cozy mystery lovers’ favorite paranormal sleuth is back with her twentieth otherworldly adventure It’s June, the roses are in bloom, and the small English village of Finch may be in big trouble. Two cottages are for sale, but something—or someone—is driving buyers away. Has a developer targeted Finch? Will property values skyrocket? Will a wave of wealthy weekenders drive out the longtime locals? Lori Shepherd has a lot on her plate—a brand-new baby daughter, her father-in-law’s impending nuptials, and a visit from her dreaded aunts-in-law—but she refuses to stand back and watch while big money destroys her beloved village. Lori suspects that a local real estate agent is illicitly lining her pockets at Finch’s expense, but before she can prove it, she’s sidetracked by a chance encounter with an eccentric inventor. Arthur Hargreaves, dubbed the Summer King by his quirky family, is as warmhearted as the summer sun. In his presence, Lori forgets her troubles—and Finch’s. Lori snaps out of her happy trance when a series of unsettling discoveries shakes her faith in Arthur Hargreaves. She stumbles across a detailed map of Finch in Hillfont Abbey. An ancient feud between Finch and the Hargreaves family comes to light. Arthur appears to be making secret deals with the shady realtor. Is the Summer King as kind as he seems? With Aunt Dimity’s otherworldly help—and her new baby girl in her arms—Lori mounts a crusade to save her village from the Summer King’s scorching greed. Look out for Aunt Dimity and the Buried Treasure, the next in the series, coming from Viking on May 24, 2016. From the Hardcover edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780698192195"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0698192192"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 5,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "2.5.4.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=1opgBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=1opgBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=1opgBAAAQBAJ&pg=PP3&dq=inauthor:Nancy+Atherton&hl=&as_pt=BOOKS&cd=10&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=1opgBAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-1opgBAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 6.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 6.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=1opgBAAAQBAJ&rdid=book-1opgBAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 6990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 6990000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Aunt_Dimity_and_the_Summer_King-sample-epub.acsm?id=1opgBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=1opgBAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Praise for Nancy \u003cb\u003eAtherton\u003c/b\u003e and her Aunt Dimity Series Aunt Dimity and the \u003cbr\u003e\nSummer King “Another hit in the long line of Aunt Dimity books.” Suspense \u003cbr\u003e\nMagazine “Aunt Dimity and the Summer King illuminates the layered writing room \u003cbr\u003e\nof Nancy&nbsp;..."
+   }
+  }
+ ]
+}

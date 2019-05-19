@@ -1,0 +1,787 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 384,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "jx1-DwAAQBAJ",
+   "etag": "NVE8rcUTS0g",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/jx1-DwAAQBAJ",
+   "volumeInfo": {
+    "title": "Big Sky",
+    "authors": [
+     "Kate Atkinson"
+    ],
+    "publisher": "Bond Street Books",
+    "publishedDate": "2019-06-25",
+    "description": "Iconoclastic detective Jackson Brodie returns in a triumphant new novel by the brilliant Kate Atkinson about secrets, sex and lies. Jackson Brodie has relocated to a quiet seaside village, in the occasional company of his recalcitrant teenage son and an aging Labrador, both at the discretion of his ex-partner Julia. It's picturesque, but there's something darker lurking behind the scenes. Jackson's current job, gathering proof of an unfaithful husband for his suspicious wife, is fairly standard issue, but a chance encounter with a desperate man on a crumbling cliff leads him into a sinister network--and back across the path of his old friend Reggie. Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780385691567"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0385691564"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 400,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=jx1-DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=jx1-DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=jx1-DwAAQBAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=jx1-DwAAQBAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Big_Sky.html?hl=&id=jx1-DwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=jx1-DwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "BLebvwEACAAJ",
+   "etag": "KJMvNTk52mU",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/BLebvwEACAAJ",
+   "volumeInfo": {
+    "title": "Big Sky",
+    "authors": [
+     "Kate Atkinson"
+    ],
+    "publisher": "Bond Street Books",
+    "publishedDate": "2019-06-25",
+    "description": "Iconoclastic detective Jackson Brodie returns in a triumphant new novel by the brilliant Kate Atkinson about secrets, sex and lies. Jackson Brodie has relocated to a quiet seaside village, in the occasional company of his recalcitrant teenage son and an aging Labrador, both at the discretion of his ex-partner Julia. It's picturesque, but there's something darker lurking behind the scenes. Jackson's current job, gathering proof of an unfaithful husband for his suspicious wife, is fairly standard issue, but a chance encounter with a desperate man on a crumbling cliff leads him into a sinister network--and back across the path of his old friend Reggie. Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0385691556"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780385691550"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 368,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=BLebvwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=BLebvwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=BLebvwEACAAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=BLebvwEACAAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Big_Sky.html?hl=&id=BLebvwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=BLebvwEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "nNSDDwAAQBAJ",
+   "etag": "g/3199Rr9H4",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/nNSDDwAAQBAJ",
+   "volumeInfo": {
+    "title": "Big Sky",
+    "authors": [
+     "Kate Atkinson"
+    ],
+    "publisher": "Hachette UK",
+    "publishedDate": "2019-06-25",
+    "description": "Iconoclastic detective Jackson Brodie returns in a triumphant new novel about secrets, sex, and lies Jackson Brodie has relocated to a quiet seaside village, in the occasional company of his recalcitrant teenage son and an aging Labrador, both at the discretion of his ex-partner Julia. It's picturesque, but there's something darker lurking behind the scenes. Jackson's current job, gathering proof of an unfaithful husband for his suspicious wife, is fairly standard-issue, but a chance encounter with a desperate man on a crumbling cliff leads him into a sinister network-and back across the path of his old friend Reggie. Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780316523103"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0316523100"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 400,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=nNSDDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=nNSDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=nNSDDwAAQBAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=nNSDDwAAQBAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Big_Sky.html?hl=&id=nNSDDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=nNSDDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "F1KTvwEACAAJ",
+   "etag": "Na3qGLi9QsQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/F1KTvwEACAAJ",
+   "volumeInfo": {
+    "title": "Big Sky",
+    "authors": [
+     "Kate Atkinson"
+    ],
+    "publisher": "Little, Brown",
+    "publishedDate": "2019-06-25",
+    "description": "Iconoclastic detective Jackson Brodie returns in a triumphant new novel about secrets, sex, and lies Jackson Brodie has relocated to a quiet seaside village, in the occasional company of his recalcitrant teenage son and an aging Labrador, both at the discretion of his ex-partner Julia. It's picturesque, but there's something darker lurking behind the scenes. Jackson's current job, gathering proof of an unfaithful husband for his suspicious wife, is fairly standard-issue, but a chance encounter with a desperate man on a crumbling cliff leads him into a sinister network-and back across the path of his old friend Reggie. Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0316523097"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780316523097"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 368,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=F1KTvwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=F1KTvwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=F1KTvwEACAAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=F1KTvwEACAAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Big_Sky.html?hl=&id=F1KTvwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=F1KTvwEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "VhL6wAEACAAJ",
+   "etag": "I+LvX3ki0Ss",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/VhL6wAEACAAJ",
+   "volumeInfo": {
+    "title": "Big Sky",
+    "authors": [
+     "Kate Atkinson"
+    ],
+    "publisher": "Little, Brown",
+    "publishedDate": "2019-06-25",
+    "description": "Iconoclastic detective Jackson Brodie returns in a triumphant new novel about secrets, sex, and lies Jackson Brodie has relocated to a quiet seaside village, in the occasional company of his recalcitrant teenage son and an aging Labrador, both at the discretion of his ex-partner Julia. It's picturesque, but there's something darker lurking behind the scenes. Jackson's current job, gathering proof of an unfaithful husband for his suspicious wife, is fairly standard-issue, but a chance encounter with a desperate man on a crumbling cliff leads him into a sinister network-and back across the path of his old friend Reggie. Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "031642515X"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780316425155"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 384,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=VhL6wAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=VhL6wAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=VhL6wAEACAAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=VhL6wAEACAAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Big_Sky.html?hl=&id=VhL6wAEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=VhL6wAEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Old secrets and new lies intersect in this breathtaking novel by one of the most dazzling and surprising writers at work today."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "yxBTvwEACAAJ",
+   "etag": "C+QbG38IK/k",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/yxBTvwEACAAJ",
+   "volumeInfo": {
+    "title": "Big Sky",
+    "authors": [
+     "Kate Atkinson"
+    ],
+    "publisher": "Doubleday UK",
+    "publishedDate": "2019-06-18",
+    "description": "The highly anticipated return of Jackson Brodie, ex-military, ex-Cambridge Constabulary, now private investigator, 'a hero for men and women alike'*. Jackson Brodie has relocated to a quiet seaside village in North Yorkshire, in the occasional company of his recalcitrant teenage son Nathan and ageing Labrador Dido, both at the discretion of his former partner Julia. It's a picturesque setting, but there's something darker lurking behind the scenes. Jackson's current job, gathering proof of an unfaithful husband for his suspicious wife, seems straightforward, but a chance encounter with a desperate man on a crumbling cliff leads him into a sinister network--and back into the path of someone from his past. Old secrets and new lies intersect in this breathtaking new novel, both sharply funny and achingly sad, by one of the most dazzling and surprising writers at work today. *The Times",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0857526103"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780857526106"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 368,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=yxBTvwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=yxBTvwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=yxBTvwEACAAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=yxBTvwEACAAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Big_Sky.html?hl=&id=yxBTvwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=yxBTvwEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Old secrets and new lies intersect in this breathtaking new novel, both sharply funny and achingly sad, by one of the most dazzling and surprising writers at work today. *The Times"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "XVFGDwAAQBAJ",
+   "etag": "waUEbPQZHaE",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/XVFGDwAAQBAJ",
+   "volumeInfo": {
+    "title": "Transcription",
+    "subtitle": "A Novel",
+    "authors": [
+     "Kate Atkinson"
+    ],
+    "publisher": "Hachette UK",
+    "publishedDate": "2018-09-25",
+    "description": "A dramatic story of WWII espionage, betrayal, and loyalty, by the #1 bestselling author of Life After Life In 1940, eighteen-year old Juliet Armstrong is reluctantly recruited into the world of espionage. Sent to an obscure department of MI5 tasked with monitoring the comings and goings of British Fascist sympathizers, she discovers the work to be by turns both tedious and terrifying. But after the war has ended, she presumes the events of those years have been relegated to the past forever. Ten years later, now a radio producer at the BBC, Juliet is unexpectedly confronted by figures from her past. A different war is being fought now, on a different battleground, but Juliet finds herself once more under threat. A bill of reckoning is due, and she finally begins to realize that there is no action without consequence. Transcription is a work of rare depth and texture, a bravura modern novel of extraordinary power, wit and empathy. It is a triumphant work of fiction from one of the best writers of our time.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780316479752"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0316479756"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 352,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 41,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.8.10.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=XVFGDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=XVFGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=XVFGDwAAQBAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=XVFGDwAAQBAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Transcription.html?hl=&id=XVFGDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=XVFGDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Sent to an obscure department of MI5 tasked with monitoring the comings and goings of British Fascist sympathizers, she discovers the work to be by turns both tedious and terrifying."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "8ip9DwAAQBAJ",
+   "etag": "BgHGjeWG8EE",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/8ip9DwAAQBAJ",
+   "volumeInfo": {
+    "title": "Big Sky",
+    "authors": [
+     "Kate Atkinson"
+    ],
+    "publisher": "Random House",
+    "publishedDate": "2019-06-18",
+    "description": "The highly anticipated return of Jackson Brodie, ex-military, ex-Cambridge Constabulary, now private investigator, ‘a hero for men and women alike’*. Jackson Brodie has relocated to a quiet seaside village in North Yorkshire, in the occasional company of his recalcitrant teenage son Nathan and ageing Labrador Dido, both at the discretion of his former partner Julia. It’s a picturesque setting, but there’s something darker lurking behind the scenes. Jackson’s current job, gathering proof of an unfaithful husband for his suspicious wife, seems straightforward, but a chance encounter with a desperate man on a crumbling cliff leads him into a sinister network—and back into the path of someone from his past. Old secrets and new lies intersect in this breathtaking new novel, both sharply funny and achingly sad, by one of the most dazzling and surprising writers at work today. *The Times",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781409043850"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1409043851"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 368,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.1.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=8ip9DwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=8ip9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=8ip9DwAAQBAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=8ip9DwAAQBAJ&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Big_Sky.html?hl=&id=8ip9DwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=8ip9DwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Old secrets and new lies intersect in this breathtaking new novel, both sharply funny and achingly sad, by one of the most dazzling and surprising writers at work today. *The Times"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "-gtGDwAAQBAJ",
+   "etag": "NbdxwYtwrvk",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/-gtGDwAAQBAJ",
+   "volumeInfo": {
+    "title": "Transcription",
+    "subtitle": "A Novel",
+    "authors": [
+     "Kate Atkinson"
+    ],
+    "publisher": "Little, Brown",
+    "publishedDate": "2018-09-25",
+    "description": "A dramatic story of WWII espionage, betrayal, and loyalty, by the #1 bestselling author of Life After Life In 1940, eighteen-year old Juliet Armstrong is reluctantly recruited into the world of espionage. Sent to an obscure department of MI5 tasked with monitoring the comings and goings of British Fascist sympathizers, she discovers the work to be by turns both tedious and terrifying. But after the war has ended, she presumes the events of those years have been relegated to the past forever. Ten years later, now a radio producer at the BBC, Juliet is unexpectedly confronted by figures from her past. A different war is being fought now, on a different battleground, but Juliet finds herself once more under threat. A bill of reckoning is due, and she finally begins to realize that there is no action without consequence. Transcription is a work of rare depth and texture, a bravura modern novel of extraordinary power, wit and empathy. It is a triumphant work of fiction from one of the best writers of our time.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780316479752"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0316479756"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 352,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 42,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.5.7.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=-gtGDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=-gtGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=-gtGDwAAQBAJ&printsec=frontcover&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=-gtGDwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book--gtGDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=-gtGDwAAQBAJ&rdid=book--gtGDwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Transcription-sample-epub.acsm?id=-gtGDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=-gtGDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Sent to an obscure department of MI5 tasked with monitoring the comings and goings of British Fascist sympathizers, she discovers the work to be by turns both tedious and terrifying."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "-gtGDwAAQBAJ",
+   "etag": "C+8WrmDcR7E",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/-gtGDwAAQBAJ",
+   "volumeInfo": {
+    "title": "Transcription",
+    "subtitle": "A Novel",
+    "authors": [
+     "Kate Atkinson"
+    ],
+    "publisher": "Little, Brown",
+    "publishedDate": "2018-09-25",
+    "description": "A dramatic story of WWII espionage, betrayal, and loyalty, by the #1 bestselling author of Life After Life In 1940, eighteen-year old Juliet Armstrong is reluctantly recruited into the world of espionage. Sent to an obscure department of MI5 tasked with monitoring the comings and goings of British Fascist sympathizers, she discovers the work to be by turns both tedious and terrifying. But after the war has ended, she presumes the events of those years have been relegated to the past forever. Ten years later, now a radio producer at the BBC, Juliet is unexpectedly confronted by figures from her past. A different war is being fought now, on a different battleground, but Juliet finds herself once more under threat. A bill of reckoning is due, and she finally begins to realize that there is no action without consequence. Transcription is a work of rare depth and texture, a bravura modern novel of extraordinary power, wit and empathy. It is a triumphant work of fiction from one of the best writers of our time.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780316479752"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0316479756"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 352,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 42,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.5.7.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=-gtGDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=-gtGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=-gtGDwAAQBAJ&pg=PT336&dq=inauthor:Kate+Atkinson&hl=&as_pt=BOOKS&cd=10&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=-gtGDwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book--gtGDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 14.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=-gtGDwAAQBAJ&rdid=book--gtGDwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.499E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Transcription-sample-epub.acsm?id=-gtGDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=-gtGDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "And, indeed, \u003cb\u003eAtkinson&#39;s\u003c/b\u003e buoyant wit and cheerful irony make the misfortunes in \u003cbr\u003e\nthese lives, including Juliet&#39;s, not tragedies but kindhearted lessons in the human \u003cbr\u003e\ncondition.” —Katherine A. Powers, Wall Street Journal “What Juliet &#39;did&#39; during&nbsp;..."
+   }
+  }
+ ]
+}

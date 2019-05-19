@@ -1,0 +1,849 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 307,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "b16IDwAAQBAJ",
+   "etag": "q7tAsM/ODnE",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/b16IDwAAQBAJ",
+   "volumeInfo": {
+    "title": "A Noël Killing",
+    "authors": [
+     "M. L. Longworth"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2019-11-12",
+    "description": "Christmastime in the south of France is as beautiful as ever, but when a shady local businessman drops dead in the middle of the festivities, Verlaque and Bonnet must solve the case while keeping the holiday spirit alive Antoine Verlaque, examining magistrate for the beautiful town of Aix-en-Provence, doesn't like Christmas. The decorations appear in the shops far too early, festive tourists swarm the streets, and his beloved Cours Mirabeau is lined with chalets selling what he regards as tacky trinkets. But his wife and partner Marine Bonnet is determined to make this a Christmas they can both enjoy, beginning with the carol sing at the Cathedral Saint Sauveur, a beautiful service in a packed church. Just as the holiday cheer is in full swing, a man is poisoned, sending the community into a tailspin. The list of suspects, Verlaque and Bonnet quickly discover, almost fills the church itself, from the visiting vendors at the Christmas fair to the victim’s unhappy wife and his disgruntled business partner. In A Noël Killing, with the help of an ever-watchful young woman named France, the pair must solve the murder while the spirit of the season attempts to warm Verlaque’s stubborn heart. “Full of gourmet meals, silky wines, and sumptuous homes, these cozy mysteries transport you to the south of France . . . Perfect for the gourmands or Francophiles in your life.” —Slate",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780525505839"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0525505830"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 304,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=b16IDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=b16IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=b16IDwAAQBAJ&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=b16IDwAAQBAJ&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/A_No%C3%ABl_Killing.html?hl=&id=b16IDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=b16IDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In A Noël Killing, with the help of an ever-watchful young woman named France, the pair must solve the murder while the spirit of the season attempts to warm Verlaque’s stubborn heart. “Full of gourmet meals, silky wines, and sumptuous ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "YLx9vwEACAAJ",
+   "etag": "Re0DwUvW9oc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/YLx9vwEACAAJ",
+   "volumeInfo": {
+    "title": "A Noël Killing",
+    "authors": [
+     "M. L. Longworth"
+    ],
+    "publisher": "Penguin Books",
+    "publishedDate": "2019",
+    "description": "In this latest tale in the A Provençal Mystery series, Antoine Verlaque and his wife and partner, Marine Bonnet, investigate the murder of an expat tour company operator.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "014313406X"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780143134060"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 304,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=YLx9vwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=YLx9vwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=YLx9vwEACAAJ&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=YLx9vwEACAAJ&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/A_No%C3%ABl_Killing.html?hl=&id=YLx9vwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=YLx9vwEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In this latest tale in the A Provençal Mystery series, Antoine Verlaque and his wife and partner, Marine Bonnet, investigate the murder of an expat tour company operator."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "lpsqDwAAQBAJ",
+   "etag": "803jLqpYHiw",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/lpsqDwAAQBAJ",
+   "volumeInfo": {
+    "title": "The Secrets of the Bastide Blanche",
+    "authors": [
+     "M. L. Longworth"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2018-04-03",
+    "description": "“Beguiling . . . Longworth evokes the pleasures of France in delicious detail—great wine, delicious meals, and fine company.” —Publishers Weekly When a scandalous author moves to the outskirts of Aix-en-Provence, Verlaque and Bonnet are called in to investigate whether he’s haunted by more than just his past, in this delightful new mystery from M. L. Longworth One hot summer night, Aix-en-Provence is aflutter with news that controversial author Valère Barbier, who once shared dinners with French presidents and all-night drinking bouts with rock stars, has moved into La Bastide Blanche, a grand house left empty for decades. But Valère’s ideas of a peaceful retirement are quickly dashed. Rambunctious neighborhood children, a fast-talking gossip of a housekeeper, and a rival novelist filter through the home at all hours of the day—and by night there are unseen visitors with more sinister intentions. While Antoine Verlaque investigates Valère’s sordid history, his wife and partner, Marine Bonnet, questions why the estate was abandoned in the first place—and what they both find raises more questions than answers. Is Valère imagining the ethereal cries that fill the bastide at night? Is he losing his mind? Or have these ghosts returned from Valère’s checkered past to haunt him?",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781524705152"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1524705152"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 336,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.4.4.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=lpsqDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=lpsqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=lpsqDwAAQBAJ&printsec=frontcover&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=lpsqDwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-lpsqDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=lpsqDwAAQBAJ&rdid=book-lpsqDwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/The_Secrets_of_the_Bastide_Blanche-sample-epub.acsm?id=lpsqDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=lpsqDwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "“Beguiling . . . Longworth evokes the pleasures of France in delicious detail—great wine, delicious meals, and fine company.” —Publishers Weekly When a scandalous author moves to the outskirts of Aix-en-Provence, Verlaque and Bonnet ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "gtypDAAAQBAJ",
+   "etag": "bTRYJ5rokUQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/gtypDAAAQBAJ",
+   "volumeInfo": {
+    "title": "The Curse of La Fontaine",
+    "subtitle": "A Verlaque and Bonnet Mystery",
+    "authors": [
+     "M. L. Longworth"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2017-04-04",
+    "description": "In the latest captivating installment of M. L. Longworth’s acclaimed Verlaque & Bonnet Provençal Mystery series, the newlywed investigators contend with their most sinister challenge yet: a centuries-old curse Chef Sigisbert “Bear” Valets has just opened his own restaurant, La Fontaine, in Aix-en-Provence. It’s an immediate success—glowing reviews and a loyal clientele, including our favorite investigative duo, Verlaque and Bonnet. But when he decides to extend his restaurant’s seating into a historic courtyard, some very powerful neighbors are against him. The local historical society wants the courtyard, which witnessed a seventeenth-century hanging and two World War II-era murders, to remain untouched. Valets charges on, even after a skeleton is found buried next to the courtyard’s ancient fountain. But when Valets begins receiving threatening letters, he becomes convinced that his life is in danger. And then the fountain inexplicably stops running. By disturbing the garden, has Bear triggered an age-old curse? And can newlyweds Verlaque and Bonnet solve the mystery before someone else ends up dead? Set against the blossoming backdrop of the south of France, M. L. Longworth’s latest is sure to thrill fans of Donna Leon and Andrea Camilleri. “Beguiling . . . Longworth evokes the pleasures of France in delicious detail—great wine, delicious meals, and fine company.” —Publishers Weekly",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101992715"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1101992719"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 320,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.1.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=gtypDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=gtypDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=gtypDAAAQBAJ&printsec=frontcover&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=gtypDAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-gtypDAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=gtypDAAAQBAJ&rdid=book-gtypDAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/The_Curse_of_La_Fontaine-sample-epub.acsm?id=gtypDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=gtypDAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In this captivating installment of M. L. Longworth’s acclaimed series, our newlywed investigators contend with their most sinister challenge yet: a centuries-old curse The newest book in the Provençal Mystery series, The Secrets of the ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "gtypDAAAQBAJ",
+   "etag": "XI40B1eiOoQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/gtypDAAAQBAJ",
+   "volumeInfo": {
+    "title": "The Curse of La Fontaine",
+    "subtitle": "A Verlaque and Bonnet Mystery",
+    "authors": [
+     "M. L. Longworth"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2017-04-04",
+    "description": "In the latest captivating installment of M. L. Longworth’s acclaimed Verlaque & Bonnet Provençal Mystery series, the newlywed investigators contend with their most sinister challenge yet: a centuries-old curse Chef Sigisbert “Bear” Valets has just opened his own restaurant, La Fontaine, in Aix-en-Provence. It’s an immediate success—glowing reviews and a loyal clientele, including our favorite investigative duo, Verlaque and Bonnet. But when he decides to extend his restaurant’s seating into a historic courtyard, some very powerful neighbors are against him. The local historical society wants the courtyard, which witnessed a seventeenth-century hanging and two World War II-era murders, to remain untouched. Valets charges on, even after a skeleton is found buried next to the courtyard’s ancient fountain. But when Valets begins receiving threatening letters, he becomes convinced that his life is in danger. And then the fountain inexplicably stops running. By disturbing the garden, has Bear triggered an age-old curse? And can newlyweds Verlaque and Bonnet solve the mystery before someone else ends up dead? Set against the blossoming backdrop of the south of France, M. L. Longworth’s latest is sure to thrill fans of Donna Leon and Andrea Camilleri. “Beguiling . . . Longworth evokes the pleasures of France in delicious detail—great wine, delicious meals, and fine company.” —Publishers Weekly",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781101992715"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1101992719"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 320,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.2.1.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=gtypDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=gtypDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=gtypDAAAQBAJ&pg=PP6&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=gtypDAAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-gtypDAAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=gtypDAAAQBAJ&rdid=book-gtypDAAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/The_Curse_of_La_Fontaine-sample-epub.acsm?id=gtypDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=gtypDAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "\u003cb\u003eLongworth&#39;s\u003c/b\u003e voice is like a rich vintage of sparkling Dorothy Sayers and \u003cbr\u003e\ngrounded Donna Leon . . . \u003cb\u003eLongworth\u003c/b\u003e has lived in Aix since 1997, and her \u003cbr\u003e\nknowledge of the region is apparent on every page. Bon appétit.” —Booklist “A \u003cbr\u003e\npromising debut&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "lA1DDgAAQBAJ",
+   "etag": "vZ7CE8ds64E",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/lA1DDgAAQBAJ",
+   "volumeInfo": {
+    "title": "The Curse of la Fontaine",
+    "authors": [
+     "M. L. Longworth"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2017",
+    "description": "\"In the latest captivating installment of M. L. Longworth's acclaimed Verlaque & Bonnet Provenocal Mystery series, the newlywed investigators contend with their most sinister challenge yet: a centuries-old curse...Chef Bear Valets has just opened his own restaurant, La Fontaine, in Aix-en-Provence. It's an immediate success--great reviews and a loyal clientele, including Verlaque and Bonnet. But when he decides to extend his restaurant's seating into an historic courtyard, some very powerful neighbors are against him. The historical society wants the courtyard, which had witnessed the 16th century hanging of an innocent man, and the murder of two resistant fighters in 1943 by the Gestapo, to remain untouched. Valets charges on, but has to temporarily close the restaurant when a skeleton is unearthed in the garden, buried in shallow ground next to an ancient stone fountain. La Fontaine reopens, only for more bad luck to hit. But when Valets begins receiving threatening letters, he becomes convinced that his life is in danger. And then the fountain, for only the third time in 352 years, stops running. By disturbing the garden, has Bear triggered the curse of la fontaine? And can newlyweds Verlaque and Bonnet solve the mystery before someone else ends up dead?\"--",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780143110941"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0143110942"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 320,
+    "printType": "BOOK",
+    "categories": [
+     "FICTION"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.preview.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=lA1DDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=lA1DDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=lA1DDgAAQBAJ&printsec=frontcover&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=lA1DDgAAQBAJ&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Curse_of_la_Fontaine.html?hl=&id=lA1DDgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=lA1DDgAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Chef Bear Valets has just opened his own restaurant, La Fontaine."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "lA1DDgAAQBAJ",
+   "etag": "+qapcmM4qXQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/lA1DDgAAQBAJ",
+   "volumeInfo": {
+    "title": "The Curse of la Fontaine",
+    "authors": [
+     "M. L. Longworth"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2017",
+    "description": "\"In the latest captivating installment of M. L. Longworth's acclaimed Verlaque & Bonnet Provenocal Mystery series, the newlywed investigators contend with their most sinister challenge yet: a centuries-old curse...Chef Bear Valets has just opened his own restaurant, La Fontaine, in Aix-en-Provence. It's an immediate success--great reviews and a loyal clientele, including Verlaque and Bonnet. But when he decides to extend his restaurant's seating into an historic courtyard, some very powerful neighbors are against him. The historical society wants the courtyard, which had witnessed the 16th century hanging of an innocent man, and the murder of two resistant fighters in 1943 by the Gestapo, to remain untouched. Valets charges on, but has to temporarily close the restaurant when a skeleton is unearthed in the garden, buried in shallow ground next to an ancient stone fountain. La Fontaine reopens, only for more bad luck to hit. But when Valets begins receiving threatening letters, he becomes convinced that his life is in danger. And then the fountain, for only the third time in 352 years, stops running. By disturbing the garden, has Bear triggered the curse of la fontaine? And can newlyweds Verlaque and Bonnet solve the mystery before someone else ends up dead?\"--",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780143110941"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0143110942"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 320,
+    "printType": "BOOK",
+    "categories": [
+     "FICTION"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.1.0.0.preview.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=lA1DDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=lA1DDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=lA1DDgAAQBAJ&pg=PP6&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=lA1DDgAAQBAJ&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Curse_of_la_Fontaine.html?hl=&id=lA1DDgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=lA1DDgAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "\u003cb\u003eLongworth&#39;s\u003c/b\u003e voice is like a rich vintage of sparkling Dorothy Sayers and \u003cbr\u003e\ngrounded Donna Leon . . . \u003cb\u003eLongworth\u003c/b\u003e has lived in Aix since 1997, and her \u003cbr\u003e\nknowledge of the region is apparent on every page. Bon appétit.” —Booklist “A \u003cbr\u003e\npromising debut&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "VtpJBgAAQBAJ",
+   "etag": "Ta+F9HfrMZ0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/VtpJBgAAQBAJ",
+   "volumeInfo": {
+    "title": "The Mystery of the Lost Cezanne",
+    "subtitle": "A Verlaque and Bonnet Mystery",
+    "authors": [
+     "M. L. Longworth"
+    ],
+    "publisher": "Penguin",
+    "publishedDate": "2015-09-15",
+    "description": "The fifth entry in this acclaimed series finds Verlaque and Bonnet searching for a murderer—in a crime tied to Provence’s greatest artist The next book in the Verlaque & Bonnet Provençal Mystery series, The Curse of La Fontaine, will be available from Penguin in April 2017! A friend in his cigar club asks Antoine Verlaque to visit René Rouquet, a retired postal worker who has found a rolled-up canvas in his apartment. As the apartment once belonged to Paul Cézanne, Rouquet is convinced he’s discovered a treasure. But when Antoine arrives at the apartment, he finds René dead, the canvas missing, and a mysterious art history professor standing over the body. When the painting is finally recovered, the mystery only deepens. The brushwork and color all point to Cézanne. But who is the smiling woman in the painting? She is definitely not the dour Madame Cézanne. Who killed René? Who stole the painting? And what will they do to get it back? Like Donna Leon and Andrea Camilleri, M. L. Longworth’s enchanting mysteries blend clever whodunits with gustatory delights and the timeless romance of Provence. The Mystery of the Lost Cézanne adds a new twist by immersing Antoine and Marine in a clever double narrative that costars Provence’s greatest artist. “Art theft is a hot topic on the mystery scene, and no one’s heist is livelier than Longworth’s.” —Kirkus Reviews From the Trade Paperback edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780698195783"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0698195787"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 320,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.6.6.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=VtpJBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=VtpJBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=VtpJBgAAQBAJ&printsec=frontcover&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=VtpJBgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-VtpJBgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=VtpJBgAAQBAJ&rdid=book-VtpJBgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/The_Mystery_of_the_Lost_Cezanne-sample-epub.acsm?id=VtpJBgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=VtpJBgAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "A beguiling mystery that finds Verlaque and Bonnet searching for a murderer—in a crime tied to Provence’s greatest artist The newest book in the Provençal Mystery series, The Secrets of the Bastide Blanche, is available now from ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "sC7aCwAAQBAJ",
+   "etag": "R5CDxXJ3k+w",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/sC7aCwAAQBAJ",
+   "volumeInfo": {
+    "title": "The Mystery of the Lost Cezanne",
+    "authors": [
+     "M. L. Longworth"
+    ],
+    "publishedDate": "2015",
+    "description": "Antoine and Marine are investigating both a murder and the provenance of a mysterious painting. Could it be a genuine Cezanne? Pierre, a friend from Antoine Verlaque's cigar club asks him to visit a cranky old man named Rene, who thinks he may have discovered the Cezanne. But when they arrive, Rene is dead, the painting is gone and a beautiful American art history professor is in Rene's flat. Did she kill Rene? And where is the painting? The 5th book in the popular Verlaque and Bonnet mystery series (Penguin).",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780143128076"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0143128078"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 301,
+    "printType": "BOOK",
+    "categories": [
+     "FICTION"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=sC7aCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=sC7aCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=sC7aCwAAQBAJ&printsec=frontcover&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=sC7aCwAAQBAJ&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Mystery_of_the_Lost_Cezanne.html?hl=&id=sC7aCwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=sC7aCwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Did she kill Rene? And where is the painting? The 5th book in the popular Verlaque and Bonnet mystery series (Penguin)."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "sC7aCwAAQBAJ",
+   "etag": "CaA8iLRiUPI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/sC7aCwAAQBAJ",
+   "volumeInfo": {
+    "title": "The Mystery of the Lost Cezanne",
+    "authors": [
+     "M. L. Longworth"
+    ],
+    "publishedDate": "2015",
+    "description": "Antoine and Marine are investigating both a murder and the provenance of a mysterious painting. Could it be a genuine Cezanne? Pierre, a friend from Antoine Verlaque's cigar club asks him to visit a cranky old man named Rene, who thinks he may have discovered the Cezanne. But when they arrive, Rene is dead, the painting is gone and a beautiful American art history professor is in Rene's flat. Did she kill Rene? And where is the painting? The 5th book in the popular Verlaque and Bonnet mystery series (Penguin).",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780143128076"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0143128078"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 301,
+    "printType": "BOOK",
+    "categories": [
+     "FICTION"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 2,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=sC7aCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=sC7aCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=sC7aCwAAQBAJ&pg=PP5&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=sC7aCwAAQBAJ&dq=inauthor:ML+Longworth&hl=&as_pt=BOOKS&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Mystery_of_the_Lost_Cezanne.html?hl=&id=sC7aCwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=sC7aCwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "—Publishers Weekly “What really makes \u003cb\u003eLongworth&#39;s\u003c/b\u003e writing special is her deep \u003cbr\u003e\nknowledge of French history, landscape, cuisine, and even contemporary cafés \u003cbr\u003e\nand restaurants. This is that rare atmospheric mystery that is street-wise and&nbsp;..."
+   }
+  }
+ ]
+}

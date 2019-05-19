@@ -1,0 +1,176 @@
+---
+title: "myBookQ"
+author: "Alicia Brown"
+output: 
+  flexdashboard::flex_dashboard:
+    theme: yeti
+    orientation: rows
+    social: [ "twitter", "facebook", "linkedin"]
+    source_code: "https://github.com/aliciatb/mybookq"
+    favicon: favicon-q.png
+runtime: shiny
+---
+
+```{r setup}
+#options(shiny.sanitize.errors = T)
+
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(flexdashboard)
+library(httr)
+library(jsonlite)
+library(stringr)
+library(tidyr)
+library(tidytext)
+library(wordcloud)
+require(wesanderson)
+
+api_mode <- TRUE
+```
+
+```{r}
+booksURL <- reactive({
+  google_key <- 'AIzaSyAwJfF6E3x_UkuAj4ahufzJKwOHZIaEql0'
+  author_name <- str_split(input$author_query," ", simplify = TRUE)
+  author_first <- author_name[1]
+  author_last <- author_name[2]
+  order_by <- 'newest'
+  # https://www.googleapis.com/books/v1/volumes?q=inauthor:Fred%20Vargas&langRestrict=en&orderBy=newest&printType=books&maxresults=40&prettyPrint=true&key=AIzaSyAwJfF6E3x_UkuAj4ahufzJKwOHZIaEql0
+  url <- paste0("https://www.googleapis.com/books/v1/volumes?q=inauthor:",author_first,"+",author_last,"&langRestrict=en&orderBy=",order_by,"&printType=books&maxresults=40&prettyPrint=true&key=",google_key)
+  url
+})
+```
+
+```{r}
+# Reactive data available for all shiny modules
+booksData <- reactive({
+  if(api_mode == F){
+    static_file <- 'data/response_penny.json'
+    datasets <- read_json(static_file,simplifyDataFrame = TRUE)
+  }
+  else{
+   datasets <- fromJSON(URLencode(booksURL()),simplifyDataFrame = TRUE) 
+  }
+  
+  volume_info <- datasets$items$volumeInfo
+  access_info <- datasets$items$accessInfo
+  search_info <- datasets$items$searchInfo
+  sale_info <- datasets$items$saleInfo
+  
+  #volume_info <- volume_info %>%
+    #mutate(author = str(authors, max.level = 1))
+    #mutate(author = unlist(authors))
+  
+  # todo: filter by author from input$author_query
+  # str(volume_info$authors[[1]], max.level = 1)
+  # str(volume_info$authors[[2]], max.level = 1)
+  # 
+  # volume_info$authors[1] == "Louise Penny"
+  # volume_info$authors[2] == "Louise Penny"
+
+  if (is.null(volume_info) == FALSE){
+    raw_data <- cbind(volume_info,sale_info,search_info) %>%
+      # handle year and year-month dates
+      mutate(
+        publishedDate = case_when(
+          str_length(publishedDate) == 4 ~ paste0(publishedDate,"-01-01"),
+          str_length(publishedDate) == 7 ~ paste0(publishedDate,"-01"),
+          TRUE ~ publishedDate)) %>%
+      select(title,authors,publishedDate,publisher,description,saleability) %>%
+      mutate(description_length = str_length(description)) %>%
+      arrange(desc(publishedDate))
+    raw_data
+    
+    # test <- raw_data[3,]
+  }else{
+    NULL
+  }
+})
+```
+
+Inputs {.sidebar data-width=300}
+-----------------------------------------------------------------------
+
+Discover top data by:
+
+```{r}
+textInput("author_query", label = "Author:", value ="Louise Penny", placeholder = "ie. Louise Penny, Fred Vargas")
+```
+
+Row {.tabset}
+-----------------------------------------------------------------------
+
+### New Book Results
+    
+```{r fig.width=18, fig.height=8}
+
+renderTable({
+  
+  data_view <- booksData()
+   
+  if(length(data_view) > 0){
+    data_view %>%
+      #filter(publishedDate > now()) %>%
+      filter(authors == str_to_title(input$author_query)) %>%
+      group_by(title, publishedDate, publisher) %>%
+      summarize(count = n()) %>%
+      select(title, publishedDate, publisher) %>%
+      arrange(desc(publishedDate))
+  }
+  else{
+    paste0('No results found for ',input$author_query)
+  }
+}
+# allow html hyperlinks
+, sanitize.text.function = function(x) x)
+```
+
+### Upcoming Book Review Description Cloud
+    
+```{r fig.width=18, fig.height=10}
+pal <- wes_palette("Darjeeling1")
+		
+renderPlot({
+  
+  data_view <- booksData()
+  
+  if(length(data_view) > 0){
+    original_reviews <- data_view %>%
+      # show the upcoming books (likely 1)
+      filter(publishedDate > now()) %>%
+      select(title, description)
+      
+    tidy_reviews <- original_reviews %>%
+      unnest_tokens(word, description)
+  
+    if(length(tidy_reviews) > 0){
+    
+      tidy_reviews %>%
+      anti_join(stop_words) %>%
+      count(word) %>%
+      with(wordcloud(word, n, max.words = 100, colors=pal, scale=c(3.0,0.5), rot.per=0.1))
+      
+    }
+  }
+})
+```
+
+
+
+
+```{r eval=F}
+### Authors
+renderTable({
+  data_view <- booksData()
+   
+  if(length(data_view) > 0){
+    data_view %>%
+      select(authors) %>%
+      filter(authors == input$author_query)
+  }else{
+    paste0('No results found for ',input$author_query)
+  }
+})
+
+```
