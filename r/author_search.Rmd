@@ -26,76 +26,90 @@ library(tidytext)
 library(wordcloud)
 require(wesanderson)
 
-api_mode <- TRUE
+favorite_authors <- "Louise Penny,Fred Vargas,Kate Atkinson,Nancy Atherton,Denisa Mina,Val McDermid,Deborah Crombie,Jussi Adler-Olsen,ML Longworth,Lisa Scottoline,Jacqueline Winspear,Stella Rimington,Mike Lawson,Arnaldur Indridason,Susan Hill,Susan Elia MacNeal,Elly Griffiths,M. L. Longworth,Helene Tursten,Camilla Lackberg,David Lagercrantz,Tana French,Nevada Barr"
 ```
 
 ```{r}
-booksURL <- reactive({
+authorURL <- function(author){
   google_key <- 'AIzaSyAwJfF6E3x_UkuAj4ahufzJKwOHZIaEql0'
-  author_name <- str_split(input$author_query," ", simplify = TRUE)
+  
+  # currently pulling last author, need to iterate and rbind
+  author_name <- str_split(author," ", simplify = TRUE)
+  
   author_first <- author_name[1]
   author_last <- author_name[2]
+  
   order_by <- 'newest'
   # https://www.googleapis.com/books/v1/volumes?q=inauthor:Fred%20Vargas&langRestrict=en&orderBy=newest&printType=books&maxresults=40&prettyPrint=true&key=AIzaSyAwJfF6E3x_UkuAj4ahufzJKwOHZIaEql0
   url <- paste0("https://www.googleapis.com/books/v1/volumes?q=inauthor:",author_first,"+",author_last,"&langRestrict=en&orderBy=",order_by,"&printType=books&maxresults=40&prettyPrint=true&key=",google_key)
   url
-})
+}
 ```
 
 ```{r}
 # Reactive data available for all shiny modules
-booksData <- reactive({
-  if(api_mode == F){
-    static_file <- 'data/response_penny.json'
-    datasets <- read_json(static_file,simplifyDataFrame = TRUE)
-  }
-  else{
-   datasets <- fromJSON(URLencode(booksURL()),simplifyDataFrame = TRUE) 
-  }
+getData <- reactive({
+  # 1. Get the comma delimited string of authors from input$author_query
   
-  volume_info <- datasets$items$volumeInfo
-  access_info <- datasets$items$accessInfo
-  search_info <- datasets$items$searchInfo
-  sale_info <- datasets$items$saleInfo
+  author_query <- c(input$author_query)
+  #author_query <- "Louise Penny,Fred Vargas"
+  authors <- str_split(author_query,",",simplify = T)
   
-  #volume_info <- volume_info %>%
-    #mutate(author = str(authors, max.level = 1))
-    #mutate(author = unlist(authors))
+  date_from <- input$dateRange[1]
+  date_to = input$dateRange[2]
   
-  # todo: filter by author from input$author_query
-  # str(volume_info$authors[[1]], max.level = 1)
-  # str(volume_info$authors[[2]], max.level = 1)
-  # 
-  # volume_info$authors[1] == "Louise Penny"
-  # volume_info$authors[2] == "Louise Penny"
-
-  if (is.null(volume_info) == FALSE){
-    raw_data <- cbind(volume_info,sale_info,search_info) %>%
-      # handle year and year-month dates
-      mutate(
-        publishedDate = case_when(
+  books <- tibble()
+  
+  # 2. Get books for each author, filter by author name, combine data
+  for(author in authors){
+    author_url <- authorURL(author)
+    data <- fromJSON(URLencode(author_url),simplifyDataFrame = TRUE)
+    
+    volume_info <- data$items$volumeInfo
+    access_info <- data$items$accessInfo
+    search_info <- data$items$searchInfo
+    sale_info <- data$items$saleInfo
+    
+    if (is.null(volume_info) == FALSE){
+      raw_data <- cbind(volume_info,sale_info,search_info) %>%
+        # adding author here since results returns as list
+        mutate(name = author) %>%
+        # handle year and year-month dates
+        mutate(
+          publishedDate = case_when(
           str_length(publishedDate) == 4 ~ paste0(publishedDate,"-01-01"),
           str_length(publishedDate) == 7 ~ paste0(publishedDate,"-01"),
           TRUE ~ publishedDate)) %>%
-      select(title,authors,publishedDate,publisher,description,saleability) %>%
-      mutate(description_length = str_length(description)) %>%
-      arrange(desc(publishedDate))
-    raw_data
-    
-    # test <- raw_data[3,]
-  }else{
-    NULL
+        # filter by date control
+        filter(publishedDate >= date_from) %>%
+        filter(publishedDate <= date_to) %>%
+        select(title,name,publishedDate,publisher,description,saleability) %>%
+        mutate(description_length = str_length(description)) %>%
+        arrange(desc(publishedDate))
+      raw_data
+      
+      books <- rbind(books, raw_data)
+    }
   }
+  books
+
 })
 ```
 
 Inputs {.sidebar data-width=300}
 -----------------------------------------------------------------------
 
-Discover top data by:
+Check for new releases!
 
 ```{r}
-textInput("author_query", label = "Author:", value ="Louise Penny", placeholder = "ie. Louise Penny, Fred Vargas")
+textAreaInput("author_query", label = "Favorite Authors:", value = favorite_authors, rows=10, resize = "vertical")
+```
+
+```{r}
+  dateRangeInput('dateRange',
+      label = 'Date range:',
+      start = Sys.Date() - 30, end = Sys.Date() + 365
+    )
 ```
 
 Row {.tabset}
@@ -107,16 +121,14 @@ Row {.tabset}
 
 renderTable({
   
-  data_view <- booksData()
+  data_view <- getData()
    
   if(length(data_view) > 0){
     data_view %>%
-      #filter(publishedDate > now()) %>%
-      filter(authors == str_to_title(input$author_query)) %>%
-      group_by(title, publishedDate, publisher) %>%
+      group_by(name,title,publishedDate) %>%
       summarize(count = n()) %>%
-      select(title, publishedDate, publisher) %>%
-      arrange(desc(publishedDate))
+      select(title, publishedDate) %>%
+      arrange(publishedDate)
   }
   else{
     paste0('No results found for ',input$author_query)
@@ -126,9 +138,10 @@ renderTable({
 , sanitize.text.function = function(x) x)
 ```
 
-### Upcoming Book Review Description Cloud
-    
-```{r fig.width=18, fig.height=10}
+
+  
+```{r fig.width=18, fig.height=10, eval = FALSE}
+# ### Upcoming Book Review Description Cloud
 pal <- wes_palette("Darjeeling1")
 		
 renderPlot({
@@ -155,7 +168,6 @@ renderPlot({
   }
 })
 ```
-
 
 
 
