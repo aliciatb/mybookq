@@ -289,8 +289,6 @@ renderTable({
 
 As an avid reader of mysteries, I look forward to reading the latest books from my favorite authors. In order to stay informed of release dates, mybookQ queries [google books api](https://developers.google.com/books/) to [search](https://developers.google.com/books/docs/v1/using#PerformingSearch) by author name to return the newest results.
 
-I also would like to have a good idea on the likelihood of enjoying a book because even my most favorite author will occasionally drift into murky and less cheerful mysteries or even worse, produce a stand-alone novel that includes none of my favorite fictional friends. By performing rudimentary sentiment analysis as well as checking for specific key words, I will score an Anticipation Index for all not yet released books.
+I also would like to have a good idea on the likelihood of enjoying a book because even my most favorite author will occasionally drift into murky and less cheerful mysteries or even worse, produce a stand-alone novel that includes none of my favorite fictional friends. By performing sentiment analysis as well as checking for specific key words, I will score an Anticipation Index for all not yet released books. It would also be helpful to have a forecast for the next year in books so that I know when I must seek out new authors recommended by the Seattle Times [Adam Woog](https://www.seattletimes.com/author/adam-woog/) and now digital [Seattle Mystery Books blog](https://mysteryish.wordpress.com/).
 
-Thanks to Julia Silge and David Robinson's awesome book  [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com)! Get it on [https://smile.amazon.com/dp/B071K9RT9Z](Amazon)!
-
-
+Thanks to Julia Silge and David Robinson's awesome book  [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com)! Get it on [Amazon](https://smile.amazon.com/dp/B071K9RT9Z)!
