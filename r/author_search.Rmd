@@ -26,7 +26,12 @@ library(tidytext)
 library(wordcloud)
 require(wesanderson)
 
-favorite_authors <- "Louise Penny,Fred Vargas,Kate Atkinson,Nancy Atherton,Denisa Mina,Val McDermid,Deborah Crombie,Jussi Adler-Olsen,ML Longworth,Lisa Scottoline,Jacqueline Winspear,Stella Rimington,Mike Lawson,Arnaldur Indridason,Susan Hill,Susan Elia MacNeal,Elly Griffiths,M. L. Longworth,Helene Tursten,Camilla Lackberg,David Lagercrantz,Tana French,Nevada Barr"
+favorite_authors <- "Louise Penny,Fred Vargas,Kate Atkinson,Nancy Atherton,Jussi Adler-Olsen,,Val McDermid,Lisa Scottoline,Jacqueline Winspear,Stella Rimington,Susan Elia MacNeal"
+other_authors <- "Denisa Mina,Val McDermid,Tana French,Deborah Crombie,Mike Lawson,Arnaldur Indridason,Susan Hill,Elly Griffiths,M. L. Longworth,Helene Tursten,Camilla Lackberg,David Lagercrantz,Nevada Barr"
+
+continuing_series_words <- "returning,next,series,continue"
+positive_words <- "cozy,dog,cat,village"
+negative_words <- "psychological,sociopath,psychopath,serial,hunting"
 ```
 
 ```{r}
@@ -51,12 +56,16 @@ authorURL <- function(author){
 getData <- reactive({
   # 1. Get the comma delimited string of authors from input$author_query
   
-  author_query <- c(input$author_query)
-  #author_query <- "Louise Penny,Fred Vargas"
-  authors <- str_split(author_query,",",simplify = T)
-  
   date_from <- input$dateRange[1]
   date_to = input$dateRange[2]
+  author_query <- c(input$author_query)
+  
+  # for debug
+  # author_query <- favorite_authors
+  # date_from <- Sys.Date() - 30
+  # date_to <- Sys.Date() + 365
+  
+  authors <- str_split(author_query,",",simplify = T)
   
   books <- tibble()
   
@@ -99,10 +108,10 @@ getData <- reactive({
 Inputs {.sidebar data-width=300}
 -----------------------------------------------------------------------
 
-Check for new releases!
+Check for new  mysteRies!
 
 ```{r}
-textAreaInput("author_query", label = "Favorite Authors:", value = favorite_authors, rows=10, resize = "vertical")
+textAreaInput("author_query", label = "Favorite Authors:", value = favorite_authors, rows=5, resize = "vertical")
 ```
 
 ```{r}
@@ -112,22 +121,160 @@ textAreaInput("author_query", label = "Favorite Authors:", value = favorite_auth
     )
 ```
 
+```{r}
+textAreaInput("description_positive", label = "Positive Keywords:", value = positive_words, rows=2, resize = "vertical")
+```
+
+```{r}
+textAreaInput("description_negative", label = "Negative Keywords:", value = negative_words, rows=2, resize = "vertical")
+```
+
+```{r}
+textAreaInput("description_continuing_series", label = "Continuing Keywords:", value = continuing_series_words, rows=2, resize = "vertical")
+```
+
+Row
+-----------------------------------------------------------------------
+
+### Available Books {.value-box}
+
+```{r available_book_count}
+renderValueBox({
+  data_view <- getData()
+  # for debug
+  # data_view <- books
+  
+  if(length(data_view) > 0){
+    data_view <- data_view %>%
+      filter(publishedDate <= Sys.Date()) %>%
+      distinct(name,title)
+      
+    book_count <- nrow(data_view)
+    
+    valueBox(book_count, 
+             icon = "fa-book",
+             color = "info")
+  }
+})
+```
+
+### Upcoming Books {.value-box}
+
+```{r upcoming_book_count}
+renderValueBox({
+  data_view <- getData()
+  # for debug
+  # data_view <- books
+  
+  if(length(data_view) > 0){
+    data_view <- data_view %>%
+      filter(publishedDate < Sys.Date() + 30) %>%
+      filter(publishedDate > Sys.Date()) %>%
+      distinct(name,title)
+      
+    book_count <- nrow(data_view)
+    
+    valueBox(book_count, 
+             icon = "fa-calendar",
+             color = "info")
+  }
+})
+```
+
+### Anticipation Index {.gauge}
+
+```{r anticipation_index}
+renderGauge({
+  data_view <- getData()
+  
+  if(length(data_view) > 0){
+    data_view <- data_view
+    
+    # TODO: create score based on description
+    books_score = 100
+    
+    gauge(books_score, min = 0, max = 100, symbol = '%', gaugeSectors(
+      success = c(90, 100), warning = c(50, 89), danger = c(0, 49)
+    ))
+  }
+})
+```
+
 Row {.tabset}
 -----------------------------------------------------------------------
 
-### New Book Results
+### New Books
     
-```{r fig.width=18, fig.height=8}
+```{r new_books, fig.width=18, fig.height=8}
 
 renderTable({
   
   data_view <- getData()
+  # for debug
+  # data_view <- books
+  
+  # todo: add link https://smile.amazon.com/s?k=fred+vargas+this+poison+will+remain&i=stripbooks
    
   if(length(data_view) > 0){
     data_view %>%
-      group_by(name,title,publishedDate) %>%
-      summarize(count = n()) %>%
-      select(title, publishedDate) %>%
+      select(name, title, publishedDate) %>%
+      distinct(name, title, publishedDate) %>%
+      arrange(publishedDate)
+  }
+  else{
+    paste0('No results found for ',input$author_query)
+  }
+}
+# allow html hyperlinks
+, sanitize.text.function = function(x) x)
+```
+  
+### Upcoming Books Description Cloud  
+  
+```{r upcoming_books_cloud, fig.width=18, fig.height=10}
+
+pal <- wes_palette("Darjeeling1")
+		
+renderPlot({
+  
+  data_view <- getData()
+  # for debug
+  # data_view <- books
+  
+  if(length(data_view) > 0){
+    data_view <- data_view %>%
+      # only upcoming books
+      filter(publishedDate > now()) 
+      
+    descriptions <- unnest_tokens(data_view, word, description) %>%
+      anti_join(stop_words) %>%
+      count(name, title, word, sort = TRUE)
+  
+    if(length(descriptions) > 0){
+      descriptions %>%
+      with(wordcloud(word, n, max.words = 100, colors=pal, scale=c(3.0,0.5), rot.per=0.1))
+    }
+  }
+})
+```
+
+### Upcoming Book Descriptions
+
+```{r upcoming_book_descriptions, fig.width=18, fig.height=8}
+
+# Can we judge a book by its description?
+
+renderTable({
+  
+  data_view <- getData()
+  # for debug
+  # data_view <- books
+  
+  if(length(data_view) > 0){
+    data_view <- data_view %>%
+      drop_na(description) %>%
+      select(name, title, publishedDate,description) %>%
+      distinct(name, title, publishedDate,description) %>%
       arrange(publishedDate)
   }
   else{
@@ -138,51 +285,12 @@ renderTable({
 , sanitize.text.function = function(x) x)
 ```
 
+### About
 
-  
-```{r fig.width=18, fig.height=10, eval = FALSE}
-# ### Upcoming Book Review Description Cloud
-pal <- wes_palette("Darjeeling1")
-		
-renderPlot({
-  
-  data_view <- booksData()
-  
-  if(length(data_view) > 0){
-    original_reviews <- data_view %>%
-      # show the upcoming books (likely 1)
-      filter(publishedDate > now()) %>%
-      select(title, description)
-      
-    tidy_reviews <- original_reviews %>%
-      unnest_tokens(word, description)
-  
-    if(length(tidy_reviews) > 0){
-    
-      tidy_reviews %>%
-      anti_join(stop_words) %>%
-      count(word) %>%
-      with(wordcloud(word, n, max.words = 100, colors=pal, scale=c(3.0,0.5), rot.per=0.1))
-      
-    }
-  }
-})
-```
+As an avid reader of mysteries, I look forward to reading the latest books from my favorite authors. In order to stay informed of release dates, mybookQ queries [google books api](https://developers.google.com/books/) to [search](https://developers.google.com/books/docs/v1/using#PerformingSearch) by author name to return the newest results.
+
+I also would like to have a good idea on the likelihood of enjoying a book because even my most favorite author will occasionally drift into murky and less cheerful mysteries or even worse, produce a stand-alone novel that includes none of my favorite fictional friends. By performing rudimentary sentiment analysis as well as checking for specific key words, I will score an Anticipation Index for all not yet released books.
+
+Thanks to Julia Silge and David Robinson's awesome book  [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com)! Get it on [https://smile.amazon.com/dp/B071K9RT9Z](Amazon)!
 
 
-
-```{r eval=F}
-### Authors
-renderTable({
-  data_view <- booksData()
-   
-  if(length(data_view) > 0){
-    data_view %>%
-      select(authors) %>%
-      filter(authors == input$author_query)
-  }else{
-    paste0('No results found for ',input$author_query)
-  }
-})
-
-```
