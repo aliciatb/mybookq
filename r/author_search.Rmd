@@ -20,13 +20,14 @@ library(lubridate)
 library(flexdashboard)
 library(httr)
 library(jsonlite)
+library(reshape2)
 library(stringr)
 library(tidyr)
 library(tidytext)
 library(wordcloud)
 require(wesanderson)
 
-favorite_authors <- "Louise Penny,Fred Vargas,Kate Atkinson,Nancy Atherton,Jussi Adler-Olsen,,Val McDermid,Lisa Scottoline,Jacqueline Winspear,Stella Rimington,Susan Elia MacNeal"
+favorite_authors <- "Louise Penny,Fred Vargas,Kate Atkinson,Nancy Atherton,Jussi Adler-Olsen,Val McDermid,Lisa Scottoline,Jacqueline Winspear,Stella Rimington,Susan Elia MacNeal"
 other_authors <- "Denisa Mina,Val McDermid,Tana French,Deborah Crombie,Mike Lawson,Arnaldur Indridason,Susan Hill,Elly Griffiths,M. L. Longworth,Helene Tursten,Camilla Lackberg,David Lagercrantz,Nevada Barr"
 
 continuing_series_words <- "returning,next,series,continue"
@@ -232,8 +233,6 @@ renderTable({
 ### Upcoming Books Description Cloud  
   
 ```{r upcoming_books_cloud, fig.width=18, fig.height=10}
-
-pal <- wes_palette("Darjeeling1")
 		
 renderPlot({
   
@@ -252,17 +251,63 @@ renderPlot({
   
     if(length(descriptions) > 0){
       descriptions %>%
-      with(wordcloud(word, n, max.words = 100, colors=pal, scale=c(3.0,0.5), rot.per=0.1))
+      with(wordcloud(word, n, max.words = 100, colors=wes_palette("Darjeeling1"), scale=c(3.0,0.5), rot.per=0.1))
     }
+  }
+})
+```
+
+### Upcoming Book Description Sentiments
+
+```{r upcoming_book_descriptions_sentiments, fig.width=18, fig.height=8}
+
+# Can we judge a book by its description?
+
+renderPlot({
+  
+  data_view <- getData()
+  # for debug
+  # data_view <- books
+  
+  # for later
+  # book_description_sentiments <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
+  #   select(title, name, publisher, description) %>%
+  #   drop_na(description) %>%
+  #   group_by(title,name,publisher) %>%
+  #   mutate(description_line = row_number()) %>%
+  #   ungroup() %>%
+  #   unnest_tokens(word, description) %>%
+  #   inner_join(get_sentiments("bing")) %>%
+  #   count(title, index = description_line %/% 80, sentiment) %>%
+  #   spread(sentiment, n, fill = 0) %>%
+  #   mutate(sentiment = positive - negative)
+    
+  if(length(data_view) > 0){
+    
+    book_descriptions <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
+      select(title, name, publisher, description) %>%
+      drop_na(description) %>%
+      group_by(title,name,publisher) %>%
+      mutate(description_line = row_number()) %>%
+      ungroup() %>%
+      unnest_tokens(word, description) %>%
+      inner_join(get_sentiments("bing")) %>%
+      count(word, sentiment, sort = TRUE) %>%
+      acast(word ~ sentiment, value.var = "n", fill = 0) %>%
+      comparison.cloud(colors=wes_palette("Royal1"),
+                       max.words = 100)
+  }
+  else{
+    paste0('No results found for ',input$author_query)
   }
 })
 ```
 
 ### Upcoming Book Descriptions
 
-```{r upcoming_book_descriptions, fig.width=18, fig.height=8}
+```{r upcoming_book_descriptions}
 
-# Can we judge a book by its description?
+# View all results, todo: maybe limit 1 description per publisher? or perhaps average scores
 
 renderTable({
   
@@ -280,9 +325,7 @@ renderTable({
   else{
     paste0('No results found for ',input$author_query)
   }
-}
-# allow html hyperlinks
-, sanitize.text.function = function(x) x)
+})
 ```
 
 ### About

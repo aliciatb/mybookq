@@ -5,8 +5,8 @@ account: alicia
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 937742
-bundleId: 2112125
+bundleId: 2117420
 url: https://alicia.shinyapps.io/author_search/
-when: 1558994310.29597
+when: 1559190226.61821
 asMultiple: FALSE
 asStatic: FALSE
