@@ -27,15 +27,15 @@ library(tidytext)
 library(wordcloud)
 require(wesanderson)
 
-favorite_authors <- "Louise Penny,Fred Vargas,Kate Atkinson,Nancy Atherton,Jussi Adler-Olsen,Val McDermid,Lisa Scottoline,Jacqueline Winspear,Stella Rimington,Susan Elia MacNeal"
-other_authors <- "Denisa Mina,Val McDermid,Tana French,Deborah Crombie,Mike Lawson,Arnaldur Indridason,Susan Hill,Elly Griffiths,M. L. Longworth,Helene Tursten,Camilla Lackberg,David Lagercrantz,Nevada Barr"
+favorite_authors <- "Louise Penny,Fred Vargas,Kate Atkinson,Nancy Atherton,Jussi Adler-Olsen"
+other_authors <- "Val McDermid,Lisa Scottoline,Jacqueline Winspear,Stella Rimington,Susan Elia MacNea,Denisa Mina,Val McDermid,Tana French,Deborah Crombie,Mike Lawson,Arnaldur Indridason,Susan Hill,Elly Griffiths,M. L. Longworth,Helene Tursten,Camilla Lackberg,David Lagercrantz,Nevada Barr"
 
-continuing_series_words <- "returning,next,series,continue"
+continuing_series_words <- "return,returns,returning,next,series,continue,continuing"
 positive_words <- "cozy,dog,cat,village"
 negative_words <- "psychological,sociopath,psychopath,serial,hunting"
 ```
 
-```{r}
+```{r authorURL}
 authorURL <- function(author){
   google_key <- 'AIzaSyAwJfF6E3x_UkuAj4ahufzJKwOHZIaEql0'
   
@@ -50,6 +50,39 @@ authorURL <- function(author){
   url <- paste0("https://www.googleapis.com/books/v1/volumes?q=inauthor:",author_first,"+",author_last,"&langRestrict=en&orderBy=",order_by,"&printType=books&maxresults=40&prettyPrint=true&key=",google_key)
   url
 }
+```
+
+```{r anticipationScores}
+anticipationScores <- function(){
+  positive_words <- input$description_positive
+  negative_words <- input$description_negative
+  continuing_series_words <- input$description_continuing_series
+  
+  # debug
+  # continuing_series_words <- "return,returns,returning,next,series,continue,continuing"
+  # positive_words <- "cozy,dog,cat,village"
+  # negative_words <- "psychological,sociopath,psychopath,serial,hunting"
+  
+  # combine positive and continuing
+  positive_words <- paste0(positive_words,",",continuing_series_words)
+  
+  positive_scores <- tibble(word = positive_words)
+  negative_scores <- tibble(word = negative_words)
+
+  positive_scores <- positive_scores %>%
+    mutate(word = strsplit(word, ",")) %>%
+    unnest(word) %>%
+    mutate(score = 1)
+  
+  negative_scores <- negative_scores %>%
+    mutate(word = strsplit(word, ",")) %>%
+    unnest(word) %>%
+    mutate(score = -1)
+    
+  scores <- bind_rows(positive_scores, negative_scores)
+  scores
+}
+
 ```
 
 ```{r}
@@ -106,8 +139,8 @@ getData <- reactive({
 })
 ```
 
-Inputs {.sidebar data-width=300}
------------------------------------------------------------------------
+Sidebar {.sidebar}
+======================================================================
 
 Check for new  mysteRies!
 
@@ -133,6 +166,11 @@ textAreaInput("description_negative", label = "Negative Keywords:", value = nega
 ```{r}
 textAreaInput("description_continuing_series", label = "Continuing Keywords:", value = continuing_series_words, rows=2, resize = "vertical")
 ```
+
+Author: [Alicia Brown](https://msaliciabrown.com)
+
+Upcoming Books
+======================================================================
 
 Row
 -----------------------------------------------------------------------
@@ -186,27 +224,38 @@ renderValueBox({
 
 ```{r anticipation_index}
 renderGauge({
-  data_view <- getData()
+  
+  data_view <- getData()  
+  anticipation <- anticipationScores()
   
   if(length(data_view) > 0){
-    data_view <- data_view
     
-    # TODO: create score based on description
-    books_score = 100
+     book_description_anticipation <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
+        select(title, name, publisher, description) %>%
+        drop_na(description) %>%
+        group_by(title,name,publisher) %>%
+        mutate(description_line = row_number()) %>%
+        ungroup() %>%
+        unnest_tokens(word, description) %>%
+        inner_join(anticipation) %>%
+        #group_by(title, index = description_line %/% 80) %>% 
+        summarise(anticipation = sum(score))
+     
+     books_score <- book_description_anticipation$anticipation
     
-    gauge(books_score, min = 0, max = 100, symbol = '%', gaugeSectors(
-      success = c(90, 100), warning = c(50, 89), danger = c(0, 49)
+    gauge(books_score, min = -25, max = 25, gaugeSectors(
+      success = c(10, 100), warning = c(0, 10), danger = c(-25, 0)
     ))
   }
 })
 ```
 
-Row {.tabset}
+Row
 -----------------------------------------------------------------------
 
 ### New Books
     
-```{r new_books, fig.width=18, fig.height=8}
+```{r new_books, fig.width=10, fig.height=10}
 
 renderTable({
   
@@ -229,10 +278,10 @@ renderTable({
 # allow html hyperlinks
 , sanitize.text.function = function(x) x)
 ```
-  
+
 ### Upcoming Books Description Cloud  
   
-```{r upcoming_books_cloud, fig.width=18, fig.height=10}
+```{r upcoming_books_cloud, fig.width=15, fig.height=10}
 		
 renderPlot({
   
@@ -257,51 +306,12 @@ renderPlot({
 })
 ```
 
-### Upcoming Book Description Sentiments
 
-```{r upcoming_book_descriptions_sentiments, fig.width=18, fig.height=8}
+Sentiment Analysis & Anticipation Score
+============================================================================
 
-# Can we judge a book by its description?
-
-renderPlot({
-  
-  data_view <- getData()
-  # for debug
-  # data_view <- books
-  
-  # for later
-  # book_description_sentiments <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
-  #   select(title, name, publisher, description) %>%
-  #   drop_na(description) %>%
-  #   group_by(title,name,publisher) %>%
-  #   mutate(description_line = row_number()) %>%
-  #   ungroup() %>%
-  #   unnest_tokens(word, description) %>%
-  #   inner_join(get_sentiments("bing")) %>%
-  #   count(title, index = description_line %/% 80, sentiment) %>%
-  #   spread(sentiment, n, fill = 0) %>%
-  #   mutate(sentiment = positive - negative)
-    
-  if(length(data_view) > 0){
-    
-    book_descriptions <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
-      select(title, name, publisher, description) %>%
-      drop_na(description) %>%
-      group_by(title,name,publisher) %>%
-      mutate(description_line = row_number()) %>%
-      ungroup() %>%
-      unnest_tokens(word, description) %>%
-      inner_join(get_sentiments("bing")) %>%
-      count(word, sentiment, sort = TRUE) %>%
-      acast(word ~ sentiment, value.var = "n", fill = 0) %>%
-      comparison.cloud(colors=wes_palette("Royal1"),
-                       max.words = 100)
-  }
-  else{
-    paste0('No results found for ',input$author_query)
-  }
-})
-```
+Row
+----------------------------------------------------------------------------
 
 ### Upcoming Book Descriptions
 
@@ -328,10 +338,130 @@ renderTable({
 })
 ```
 
-### About
+Row
+----------------------------------------------------------------------------
+
+### Upcoming Book Scores
+
+```{r upcoming_book_scores, fig.width=10, fig.height=10}
+
+renderTable({
+  
+  data_view <- getData()
+  # for debug
+  #data_view <- books
+  
+  # sentiments
+  bing <- get_sentiments("bing")
+  afinn <- get_sentiments("afinn")
+  # anticipation score
+  anticipation <- anticipationScores()
+  
+  if(length(data_view) > 0){
+      # bing
+      # book_description_sentiments <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
+      #   select(title, name, publisher, description) %>%
+      #   drop_na(description) %>%
+      #   group_by(title,name,publisher) %>%
+      #   mutate(description_line = row_number()) %>%
+      #   ungroup() %>%
+      #   unnest_tokens(word, description) %>%
+      #   inner_join(bing) %>%
+      #   count(title, index = description_line %/% 80, sentiment) %>%
+      #   spread(sentiment, n, fill = 0) %>%
+      #   mutate(sentiment = positive - negative) %>%
+      #   select(-index)
+      
+      book_description_sentiments <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
+        select(title, name, publisher, description) %>%
+        drop_na(description) %>%
+        group_by(title,name,publisher) %>%
+        mutate(description_line = row_number()) %>%
+        ungroup() %>%
+        unnest_tokens(word, description) %>%
+        inner_join(afinn) %>%
+        group_by(title, index = description_line %/% 80) %>% 
+        summarise(sentiment = sum(score))
+      
+      book_description_anticipation <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
+        select(title, name, publisher, description) %>%
+        drop_na(description) %>%
+        group_by(title,name,publisher) %>%
+        mutate(description_line = row_number()) %>%
+        ungroup() %>%
+        unnest_tokens(word, description) %>%
+        inner_join(anticipation) %>%
+        group_by(title, index = description_line %/% 80) %>% 
+        summarise(anticipation = sum(score))
+      
+      book_description_scores <- bind_cols(book_description_sentiments, book_description_anticipation)
+      book_description_scores %>%
+        select(title, sentiment, anticipation)
+  }
+  else{
+    paste0('No results found for ',input$author_query)
+  }
+})
+```
+
+### Upcoming Book Description Sentiments
+
+```{r upcoming_book_descriptions_sentiments, fig.width=15, fig.height=10}
+
+# Can we judge a book by its description?
+
+renderPlot({
+  
+  data_view <- getData()
+  # for debug
+  # data_view <- books
+    
+  if(length(data_view) > 0){
+    
+    book_descriptions <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
+      select(title, name, publisher, description) %>%
+      drop_na(description) %>%
+      group_by(title,name,publisher) %>%
+      mutate(description_line = row_number()) %>%
+      ungroup() %>%
+      unnest_tokens(word, description) %>%
+      inner_join(get_sentiments("bing")) %>%
+      count(word, sentiment, sort = TRUE) %>%
+      acast(word ~ sentiment, value.var = "n", fill = 0) %>%
+      comparison.cloud(colors=wes_palette("Royal1"),
+                       max.words = 100)
+  }
+  else{
+    paste0('No results found for ',input$author_query)
+  }
+})
+```
+
+About
+============================================================================
+
+Row
+----------------------------------------------------------------------------
+
+### Motivations
 
 As an avid reader of mysteries, I look forward to reading the latest books from my favorite authors. In order to stay informed of release dates, mybookQ queries [google books api](https://developers.google.com/books/) to [search](https://developers.google.com/books/docs/v1/using#PerformingSearch) by author name to return the newest results.
 
 I also would like to have a good idea on the likelihood of enjoying a book because even my most favorite author will occasionally drift into murky and less cheerful mysteries or even worse, produce a stand-alone novel that includes none of my favorite fictional friends. By performing sentiment analysis as well as checking for specific key words, I will score an Anticipation Index for all not yet released books. It would also be helpful to have a forecast for the next year in books so that I know when I must seek out new authors recommended by the Seattle Times [Adam Woog](https://www.seattletimes.com/author/adam-woog/) and now digital [Seattle Mystery Books blog](https://mysteryish.wordpress.com/).
 
-Thanks to Julia Silge and David Robinson's awesome book  [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com)! Get it on [Amazon](https://smile.amazon.com/dp/B071K9RT9Z)!
+Row
+----------------------------------------------------------------------------
+
+### Appreciations
+
+- Thanks to Julia Silge and David Robinson's awesome book  [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com)! Get it on [Amazon](https://smile.amazon.com/dp/B071K9RT9Z)!
+- Thanks to Kyle Walker's [Neighborhood Diversity  in the American metropolis](https://walkerke.shinyapps.io/neighborhood_diversity/) Shiny application with the multiple pages layout. Amazing data exploration tool with just as awesome design! #GoFrogs!
+- As always, thanks to [Karthik Ram](http://inundata.org/) for the pleasing [Wes Anderson color palettes](https://github.com/karthik/wesanderson)
+
+Row
+----------------------------------------------------------------------------
+
+### Roadmap
+
+- [Project](https://github.com/aliciatb/mybookq/projects)
+- [Issues](https://github.com/issues)
