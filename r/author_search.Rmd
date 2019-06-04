@@ -179,7 +179,7 @@ textAreaInput("description_negative_continuing_series", label = "New Series Keyw
 
 Author: [Alicia Brown](https://msaliciabrown.com)
 
-Upcoming Books
+Books
 ======================================================================
 
 Row
@@ -406,7 +406,7 @@ renderPlot({
 })
 ```
 
-Raw data
+Data
 ============================================================================
 
 Row
