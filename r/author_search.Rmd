@@ -30,9 +30,9 @@ require(wesanderson)
 favorite_authors <- "Louise Penny,Fred Vargas,Kate Atkinson,Nancy Atherton,Jussi Adler-Olsen"
 other_authors <- "Val McDermid,Lisa Scottoline,Jacqueline Winspear,Stella Rimington,Susan Elia MacNea,Denisa Mina,Val McDermid,Tana French,Deborah Crombie,Mike Lawson,Arnaldur Indridason,Susan Hill,Elly Griffiths,M. L. Longworth,Helene Tursten,Camilla Lackberg,David Lagercrantz,Nevada Barr"
 
-positive_continuing_series_words <- "return,returns,returning,next,series,continue,continuing"
+positive_continuing_series_words <- "return,returns,returning,next,series,continue,continuing,gamache,brodie,adamsberg,evangelists,finch"
 negative_continuing_series_words <- "stand-alone"
-positive_words <- "cozy,dog,cat,village,eccentric,kind,thoughtful,sympathetic"
+positive_words <- "cozy,dog,cat,village,eccentric,kind,thoughtful,sympathy"
 negative_words <- "psychological,sociopath,psychopath,serial,hunting,cruel,mean"
 ```
 
@@ -55,10 +55,10 @@ authorURL <- function(author){
 
 ```{r anticipationScores}
 anticipationScores <- function(){
-  # positive_words <- input$description_positive
-  # negative_words <- input$description_negative
-  # positive_continuing_series_words <- input$description_positive_continuing_series
-  # negative_continuing_series_words <- input$description_negative_continuing_series
+  positive_words <- input$description_positive
+  negative_words <- input$description_negative
+  positive_continuing_series_words <- input$description_positive_continuing_series
+  negative_continuing_series_words <- input$description_negative_continuing_series
   
   # combine positive and continuing
   positive_words <- paste0(positive_words,",",positive_continuing_series_words)
@@ -70,12 +70,12 @@ anticipationScores <- function(){
   positive_scores <- positive_scores %>%
     mutate(word = strsplit(word, ",")) %>%
     unnest(word) %>%
-    mutate(score = 1)
+    mutate(score = 1, sentiment = "positive")
   
   negative_scores <- negative_scores %>%
     mutate(word = strsplit(word, ",")) %>%
     unnest(word) %>%
-    mutate(score = -1)
+    mutate(score = -1, sentiment = "negative")
     
   scores <- bind_rows(positive_scores, negative_scores)
   scores
@@ -265,7 +265,7 @@ Row
 
 ### Author search results
     
-```{r new_books, fig.width=10, fig.height=10}
+```{r new_books, fig.width=14, fig.height=10}
 
 renderTable({
   
@@ -273,12 +273,52 @@ renderTable({
   # for debug
   # data_view <- books
   
+  # sentiments
+  afinn <- get_sentiments("afinn")
+  # anticipation score
+  anticipation <- anticipationScores()
+  
   # todo: add link https://smile.amazon.com/s?k=fred+vargas+this+poison+will+remain&i=stripbooks
    
   if(length(data_view) > 0){
-    data_view %>%
-      select(name, title, publishedDate) %>%
-      arrange(publishedDate)
+    
+    book_description_sentiments <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
+        select(title, name, description) %>%
+        drop_na(description) %>%
+        group_by(title,name) %>%
+        mutate(description_line = row_number()) %>%
+        ungroup() %>%
+        unnest_tokens(word, description) %>%
+        inner_join(afinn) %>%
+        group_by(title, index = description_line %/% 80) %>% 
+        summarise(sentiment = sum(score))
+      book_description_sentiments
+      
+      book_description_anticipation <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
+        mutate(description_length = str_length(description)) %>%
+        filter(description_length > 0) %>%
+        select(title, name, description) %>%
+        drop_na(description) %>%
+        group_by(title,name) %>%
+        mutate(description_line = row_number()) %>%
+        ungroup() %>%
+        unnest_tokens(word, description) %>%
+        inner_join(anticipation) %>%
+        group_by(title, index = description_line %/% 80) %>% 
+        summarise(anticipation = sum(score))
+      book_description_anticipation
+      
+      book_description_scores <- merge(book_description_sentiments, book_description_anticipation, all = T)
+      
+      book_description_scores <- merge(book_description_scores, data_view, all = T)
+      
+      book_description_scores %>%
+        select(name, title, publishedDate, anticipation, sentiment) %>%
+        arrange(publishedDate)
+    
+    # data_view %>%
+    #   select(name, title, publishedDate) %>%
+    #   arrange(publishedDate)
   }
   else{
     paste0('No results found for ',input$author_query)
@@ -290,7 +330,7 @@ renderTable({
 
 ### Word Frequencies
   
-```{r upcoming_books_cloud, fig.width=15, fig.height=5}
+```{r upcoming_books_cloud, fig.width=10, fig.height=10}
 		
 renderPlot({
   
@@ -320,52 +360,36 @@ Sentiment Analysis & Anticipation Scores
 Row
 ----------------------------------------------------------------------------
 
-### Book anticipation scores
+### Book description anticipation sentiments
 
-```{r upcoming_book_scores, eval = T}
+```{r upcoming_book_descriptions_series_anticipation_sentiments, fig.height=13}
 
-renderTable({
+# Can we judge a book by its description?
+
+renderPlot({
   
   data_view <- getData()
   # for debug
-  #data_view <- books
+  # data_view <- books
   
-  # sentiments
-  afinn <- get_sentiments("afinn")
   # anticipation score
   anticipation <- anticipationScores()
-  
+    
   if(length(data_view) > 0){
-      
-      book_description_sentiments <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
-        select(title, name, description) %>%
-        drop_na(description) %>%
-        group_by(title,name) %>%
-        mutate(description_line = row_number()) %>%
-        ungroup() %>%
-        unnest_tokens(word, description) %>%
-        inner_join(afinn) %>%
-        group_by(title, index = description_line %/% 80) %>% 
-        summarise(sentiment = sum(score))
-      book_description_sentiments
-      
-      book_description_anticipation <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
-        mutate(description_length = str_length(description)) %>%
-        filter(description_length > 0) %>%
-        select(title, name, description) %>%
-        drop_na(description) %>%
-        group_by(title,name) %>%
-        mutate(description_line = row_number()) %>%
-        ungroup() %>%
-        unnest_tokens(word, description) %>%
-        inner_join(anticipation) %>%
-        group_by(title, index = description_line %/% 80) %>% 
-        summarise(anticipation = sum(score))
-      book_description_anticipation
-      
-      book_description_scores <- merge(book_description_sentiments, book_description_anticipation)
-      book_description_scores %>%
-        select(title, anticipation, sentiment)
+    
+    book_descriptions <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
+      select(title, name, description) %>%
+      drop_na(description) %>%
+      group_by(title,name) %>%
+      mutate(description_line = row_number()) %>%
+      ungroup() %>%
+      unnest_tokens(word, description) %>%
+      inner_join(anticipation) %>%
+      count(word, sentiment, sort = TRUE) %>%
+      acast(word ~ sentiment, value.var = "n", fill = 0) %>%
+      comparison.cloud(colors=c("#F98302","#5BBCD6"),
+                       title.bg.colors=c("#F98302","#5BBCD6"),
+                       scale=c(3,.7), max.words = 100)
   }
   else{
     paste0('No results found for ',input$author_query)
@@ -375,7 +399,7 @@ renderTable({
 
 ### Book description sentiments
 
-```{r upcoming_book_descriptions_series_sentiments}
+```{r upcoming_book_descriptions_series_sentiments, fig.height=13}
 
 # Can we judge a book by its description?
 
@@ -397,7 +421,8 @@ renderPlot({
       inner_join(get_sentiments("bing")) %>%
       count(word, sentiment, sort = TRUE) %>%
       acast(word ~ sentiment, value.var = "n", fill = 0) %>%
-      comparison.cloud(colors=wes_palette("Royal1"),
+      comparison.cloud(colors=c("#F98302","#5BBCD6"),
+                       title.bg.colors=c("#F98302","#5BBCD6"),
                        scale=c(3,.7), max.words = 100)
   }
   else{
@@ -430,38 +455,6 @@ renderTable({
       select(name, title, publishedDate,description) %>%
       distinct(name, title, publishedDate,description) %>%
       arrange(publishedDate)
-  }
-  else{
-    paste0('No results found for ',input$author_query)
-  }
-})
-```
-
-
-```{r upcoming_book_descriptions_sentiments, fig.width=15, fig.height=10, eval=F}
-
-# ### Upcoming Book Description Sentiments
-
-renderPlot({
-  
-  data_view <- getData()
-  # for debug
-  # data_view <- books
-    
-  if(length(data_view) > 0){
-    
-    book_descriptions <- separate_rows(data_view, description, sep = "\\.", convert = FALSE) %>%
-      select(title, name, description) %>%
-      drop_na(description) %>%
-      group_by(title,name) %>%
-      mutate(description_line = row_number()) %>%
-      ungroup() %>%
-      unnest_tokens(word, description) %>%
-      inner_join(get_sentiments("bing")) %>%
-      count(word, sentiment, sort = TRUE) %>%
-      acast(word ~ sentiment, value.var = "n", fill = 0) %>%
-      comparison.cloud(colors=wes_palette("Royal1"),
-                       max.words = 100)
   }
   else{
     paste0('No results found for ',input$author_query)
