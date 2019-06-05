@@ -263,7 +263,7 @@ renderGauge({
 Row
 -----------------------------------------------------------------------
 
-### Author search results
+### All search results
     
 ```{r new_books, fig.width=14, fig.height=10}
 
@@ -277,8 +277,6 @@ renderTable({
   afinn <- get_sentiments("afinn")
   # anticipation score
   anticipation <- anticipationScores()
-  
-  # todo: add link https://smile.amazon.com/s?k=fred+vargas+this+poison+will+remain&i=stripbooks
    
   if(length(data_view) > 0){
     
@@ -309,12 +307,17 @@ renderTable({
       book_description_anticipation
       
       book_description_scores <- merge(book_description_sentiments, book_description_anticipation, all = T)
-      
       book_description_scores <- merge(book_description_scores, data_view, all = T)
       
       book_description_scores %>%
-        select(name, title, publishedDate, anticipation, sentiment) %>%
-        arrange(publishedDate)
+        mutate(title_lower = str_to_lower(title),
+               title_formatted = str_replace_all(title_lower," ","+"),
+               author_formatted = str_replace_all(str_to_lower(name)," ","+"),
+               title = paste0('<a href="https://smile.amazon.com/s?k=',author_formatted,'+',title_formatted,'&i=stripbooks">',title,'</a>')) %>%
+        rename(date = publishedDate,
+               author = name) %>%
+        select(author, title, date, anticipation, sentiment) %>%
+        arrange(date)
     
     # data_view %>%
     #   select(name, title, publishedDate) %>%
@@ -354,7 +357,7 @@ renderPlot({
 ```
 
 
-Sentiment Analysis & Anticipation Scores
+Sentiment & Anticipation Comparisons
 ============================================================================
 
 Row
@@ -389,7 +392,7 @@ renderPlot({
       acast(word ~ sentiment, value.var = "n", fill = 0) %>%
       comparison.cloud(colors=c("#F98302","#5BBCD6"),
                        title.bg.colors=c("#F98302","#5BBCD6"),
-                       scale=c(3,.7), max.words = 100)
+                       scale=c(3.0,0.5), max.words = 100)
   }
   else{
     paste0('No results found for ',input$author_query)
@@ -423,7 +426,7 @@ renderPlot({
       acast(word ~ sentiment, value.var = "n", fill = 0) %>%
       comparison.cloud(colors=c("#F98302","#5BBCD6"),
                        title.bg.colors=c("#F98302","#5BBCD6"),
-                       scale=c(3,.7), max.words = 100)
+                       scale=c(3.0,0.5), max.words = 100)
   }
   else{
     paste0('No results found for ',input$author_query)
