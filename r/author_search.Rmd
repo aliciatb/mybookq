@@ -21,6 +21,7 @@ library(flexdashboard)
 library(httr)
 library(jsonlite)
 library(reshape2)
+library(scales)
 library(stringr)
 library(tidyr)
 library(tidytext)
@@ -93,9 +94,9 @@ getData <- reactive({
   author_query <- c(input$author_query)
   
   # for debug
-  # author_query <- favorite_authors
-  # date_from <- Sys.Date() - 60
-  # date_to <- Sys.Date() + 365
+  author_query <- favorite_authors
+  date_from <- Sys.Date() - 60
+  date_to <- Sys.Date() + 365
   
   authors <- str_split(author_query,",",simplify = T)
   
@@ -137,7 +138,7 @@ getData <- reactive({
   books <- books %>%
     select(title,name,publishedDate,description) %>%
     group_by(title,name) %>%
-    summarize(publishedDate = min(publishedDate),
+    summarize(publishedDate = max(publishedDate),
               description = max(description))
   
   books
@@ -151,7 +152,7 @@ Sidebar {.sidebar}
 Check for new  mysteRies!
 
 ```{r}
-textAreaInput("author_query", label = "Favorite Authors:", value = favorite_authors, rows=5, resize = "vertical")
+textAreaInput("author_query", label = "Favorite Authors:", value = favorite_authors, rows=3, resize = "vertical")
 ```
 
 ```{r}
@@ -356,8 +357,7 @@ renderPlot({
 })
 ```
 
-
-Sentiment & Anticipation Comparisons
+Sentiments
 ============================================================================
 
 Row
@@ -434,8 +434,48 @@ renderPlot({
 })
 ```
 
-Data
+Data & Forecast
 ============================================================================
+
+Row
+----------------------------------------------------------------------------
+
+### Book releases
+
+```{r upcoming_books_timeline, fig.height=4}
+
+# Can we judge a book by its description?
+
+renderPlot({
+  
+  data_view <- getData()
+  # for debug
+  # data_view <- books
+    
+  if(length(data_view) > 0){
+    
+    book_releases <- data_view %>%
+      group_by(publishedDate) %>%
+      summarize(count = n())
+    
+    typeof(Sys.Date())
+    
+    max_books <- max(book_releases$count)
+    min_date <- as.Date(Sys.Date())
+    max_date <- as.Date(max(book_releases$publishedDate))
+    
+    ggplot(book_releases, aes(publishedDate, count, group = 1)) +
+      geom_point() +
+      geom_line() +
+      scale_y_continuous(limits = c(1,max_books)) +
+      labs(x = "Date", y = "Books") 
+    
+  }
+  else{
+    paste0('No results found for ',input$author_query)
+  }
+})
+```
 
 Row
 ----------------------------------------------------------------------------
