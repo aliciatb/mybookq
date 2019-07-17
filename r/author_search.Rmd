@@ -24,6 +24,7 @@ library(reshape2)
 library(scales)
 library(stringr)
 library(tidyr)
+library(timevis)
 library(tidytext)
 library(wordcloud)
 require(wesanderson)
@@ -94,9 +95,9 @@ getData <- reactive({
   author_query <- c(input$author_query)
   
   # for debug
-  author_query <- favorite_authors
-  date_from <- Sys.Date() - 60
-  date_to <- Sys.Date() + 365
+  # author_query <- favorite_authors
+  # date_from <- Sys.Date() - 60
+  # date_to <- Sys.Date() + 365
   
   authors <- str_split(author_query,",",simplify = T)
   
@@ -186,7 +187,7 @@ Books
 Row
 -----------------------------------------------------------------------
 
-### Available Books {.value-box}
+### Available books {.value-box}
 
 ```{r available_book_count}
 renderValueBox({
@@ -208,7 +209,7 @@ renderValueBox({
 })
 ```
 
-### Upcoming Books {.value-box}
+### Upcoming books {.value-box}
 
 ```{r upcoming_book_count}
 renderValueBox({
@@ -231,7 +232,7 @@ renderValueBox({
 })
 ```
 
-### Anticipation Index {.gauge}
+### Anticipation index {.gauge}
 
 ```{r anticipation_index}
 renderGauge({
@@ -249,7 +250,6 @@ renderGauge({
         ungroup() %>%
         unnest_tokens(word, description) %>%
         inner_join(anticipation) %>%
-        #group_by(title, index = description_line %/% 80) %>% 
         summarise(anticipation = sum(score))
      
      books_score <- book_description_anticipation$anticipation
@@ -260,6 +260,35 @@ renderGauge({
   }
 })
 ```
+
+Row
+----------------------------------------------------------------------------
+
+### Upcoming book releases (next 30 days)
+
+```{r upcoming_time_vis, fig.height=3}
+renderTimevis({
+  data_view <- getData()
+  # for debug
+  # data_view <- books
+  
+  if(length(data_view) > 0){
+    data_view <- data_view %>%
+      filter(publishedDate < Sys.Date() + 30) %>%
+      filter(publishedDate > Sys.Date()) %>%
+      distinct(name,title,publishedDate) %>%
+      mutate(name_title = paste(title,"-",name))
+  }
+  
+  data <- data.frame(
+       id      = 1:nrow(data_view),
+       content = c(data_view$name_title),
+       start = c(data_view$publishedDate)
+  )
+  timevis(data)
+})
+```
+
 
 Row
 -----------------------------------------------------------------------
@@ -332,7 +361,7 @@ renderTable({
 , sanitize.text.function = function(x) x)
 ```
 
-### Word Frequencies
+### Word frequencies
   
 ```{r upcoming_books_cloud, fig.width=10, fig.height=10}
 		
@@ -434,53 +463,13 @@ renderPlot({
 })
 ```
 
-Data & Forecast
+Raw Data
 ============================================================================
 
 Row
 ----------------------------------------------------------------------------
 
-### Book releases
-
-```{r upcoming_books_timeline, fig.height=4}
-
-# Can we judge a book by its description?
-
-renderPlot({
-  
-  data_view <- getData()
-  # for debug
-  # data_view <- books
-    
-  if(length(data_view) > 0){
-    
-    book_releases <- data_view %>%
-      group_by(publishedDate) %>%
-      summarize(count = n())
-    
-    typeof(Sys.Date())
-    
-    max_books <- max(book_releases$count)
-    min_date <- as.Date(Sys.Date())
-    max_date <- as.Date(max(book_releases$publishedDate))
-    
-    ggplot(book_releases, aes(publishedDate, count, group = 1)) +
-      geom_point() +
-      geom_line() +
-      scale_y_continuous(limits = c(1,max_books)) +
-      labs(x = "Date", y = "Books") 
-    
-  }
-  else{
-    paste0('No results found for ',input$author_query)
-  }
-})
-```
-
-Row
-----------------------------------------------------------------------------
-
-### Upcoming Book Descriptions
+### Upcoming book descriptions
 
 ```{r upcoming_book_descriptions}
 
@@ -522,5 +511,6 @@ I believe that my favorite authors' stories are ones of great kindness to all, a
 - Thanks to Julia Silge and David Robinson's awesome book  [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com)! Get it on [Amazon](https://smile.amazon.com/dp/B071K9RT9Z)!
 - Thanks to Kyle Walker's [Neighborhood Diversity  in the American metropolis](https://walkerke.shinyapps.io/neighborhood_diversity/) Shiny application with the multiple pages layout. Amazing data exploration tool with just as awesome design! #GoFrogs!
 - As always, thanks to [Karthik Ram](http://inundata.org/) for the pleasing [Wes Anderson color palettes](https://github.com/karthik/wesanderson)
+- [Dean Attali](https://deanattali.com/)'s awesome [timevis](https://daattali.com/shiny/timevis-demo/) for the perfect timeline visualization
 
 Happy Reading!
