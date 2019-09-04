@@ -31,6 +31,7 @@ require(wesanderson)
 
 favorite_authors <- "Louise Penny,Fred Vargas,Kate Atkinson,Nancy Atherton,Jussi Adler-Olsen"
 other_authors <- "Val McDermid,Lisa Scottoline,Jacqueline Winspear,Stella Rimington,Susan Elia MacNea,Denisa Mina,Val McDermid,Tana French,Deborah Crombie,Mike Lawson,Arnaldur Indridason,Susan Hill,Elly Griffiths,M. L. Longworth,Helene Tursten,Camilla Lackberg,David Lagercrantz,Nevada Barr"
+authors <- paste0(favorite_authors)
 
 positive_continuing_series_words <- "return,returns,returning,next,series,continue,continuing,gamache,brodie,adamsberg,evangelists,finch"
 negative_continuing_series_words <- "stand-alone"
@@ -105,6 +106,8 @@ getData <- reactive({
   
   # 2. Get books for each author, filter by author name, combine data
   for(author in authors){
+    # debug
+    # author <- 'Louise Penny'
     author_url <- authorURL(author)
     data <- fromJSON(URLencode(author_url),simplifyDataFrame = TRUE)
     
@@ -113,8 +116,13 @@ getData <- reactive({
     search_info <- data$items$searchInfo
     sale_info <- data$items$saleInfo
     
+    # debug
+    # test <- raw_data %>%
+    #   filter(authors == 'Louise Penny')
+    
     if (is.null(volume_info) == FALSE){
       raw_data <- cbind(volume_info,sale_info,search_info) %>%
+        filter(authors == author) %>%
         # adding author here since results returns as list
         mutate(name = author) %>%
         # handle year and year-month dates
@@ -128,9 +136,8 @@ getData <- reactive({
         filter(publishedDate <= date_to) %>%
         select(title,name,publishedDate,description,saleability) %>%
         mutate(description_length = str_length(description)) %>%
+        filter(description_length > 0) %>%
         arrange(desc(publishedDate))
-      
-      raw_data
       
       books <- rbind(books, raw_data)
     }
@@ -139,7 +146,7 @@ getData <- reactive({
   books <- books %>%
     select(title,name,publishedDate,description) %>%
     group_by(title,name) %>%
-    summarize(publishedDate = max(publishedDate),
+    summarize(publishedDate = min(publishedDate),
               description = max(description))
   
   books
@@ -153,7 +160,7 @@ Sidebar {.sidebar}
 Check for new  mysteRies!
 
 ```{r}
-textAreaInput("author_query", label = "Favorite Authors:", value = favorite_authors, rows=3, resize = "vertical")
+textAreaInput("author_query", label = "Favorite Authors:", value = authors, rows=3, resize = "vertical")
 ```
 
 ```{r}
@@ -264,7 +271,7 @@ renderGauge({
 Row
 ----------------------------------------------------------------------------
 
-### Upcoming book releases (next 30 days)
+### Upcoming books (next 30 days) and recently published (last 14 days)
 
 ```{r upcoming_time_vis, fig.height=3}
 renderTimevis({
@@ -275,17 +282,20 @@ renderTimevis({
   if(length(data_view) > 0){
     data_view <- data_view %>%
       filter(publishedDate < Sys.Date() + 30) %>%
-      filter(publishedDate > Sys.Date()) %>%
+      filter(publishedDate > Sys.Date() - 14) %>%
       distinct(name,title,publishedDate) %>%
       mutate(name_title = paste(title,"-",name))
   }
   
-  data <- data.frame(
-       id      = 1:nrow(data_view),
-       content = c(data_view$name_title),
-       start = c(data_view$publishedDate)
-  )
+  if(nrow(data_view) > 0)
+  {
+    data <- data.frame(
+         id      = 1:nrow(data_view),
+         content = c(data_view$name_title),
+         start = c(data_view$publishedDate)
+    )
   timevis(data)
+  }
 })
 ```
 
